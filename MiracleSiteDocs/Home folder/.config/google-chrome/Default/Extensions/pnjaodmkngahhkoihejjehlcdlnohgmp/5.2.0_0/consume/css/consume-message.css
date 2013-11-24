@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'meta-serif';
+	src: local('☺'), url('../../library/media/fonts/meta-serif-bold-700.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+div {
+	text-align: center;
+	font: 20px Helvetica Neue, arial, sans-serif;
+	color: #212121;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	margin-top: -100px;
+}
+
+h2 {
+	color: #fff; /* text color */
+	font-family: "meta-serif";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	text-shadow: 0 -2px 0 rgba(18,16,11,.75); /* drop shadow */
+	margin: 0 0 5px 0;
+}
+
+p {
+	color: #fff; 
+	font-family: "Helvetica Neue", arial, sans-serif;
+	font-size: 16px;
+	text-shadow: 0 -1px 0 rgba(18,16,11,.75);
+	opacity: 0.3;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.g {
+	background: url(gfx/radial-gradient.jpg) center center no-repeat;
+	display: block;
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	opacity: 1;
+}
+
+.inset-icon {
+	display: block;
+	margin: 0 auto 10px;
+	width: 96px;
+	height: 97px;
+	background: url("../../icons/inset-icon.png") no-repeat;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	.inset-icon {
+		background-image: url("../../icons/inset-icon_2x.png");
+		background-size: 96px 97px;
+	}
+}
+
+body {
+	background: #212121;
+	-webkit-font-smoothing: antialiased;
+}

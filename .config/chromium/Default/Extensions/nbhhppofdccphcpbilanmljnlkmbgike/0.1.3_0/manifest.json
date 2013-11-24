@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "jquery.min.js", "searcher.js", "search_index.js", "background.js", "ga.js" ]
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Search the Ruby on Rails API Documentation",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ5w1phLdOFt7UZvBkKWB+bNwWi/kW9iiDhx9Q7uHUd0yYp+rt5FqnRsGVnQgixwlkadB4+DYKKSE8R7HYKVHtNPjDC0f46ERxi/YgLOP/JP3rtUmUUU/iZ8ODFWWn9Qe7VZHpwI852jNLktYX2tcqMlC/Nhg/z5l0BwRhYcj+EQIDAQAB",
+   "manifest_version": 2,
+   "name": "Ruby on Rails API Search",
+   "omnibox": {
+      "keyword": "rd"
+   },
+   "permissions": [ "tabs", "http://api.rubyonrails.org/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.3"
+}

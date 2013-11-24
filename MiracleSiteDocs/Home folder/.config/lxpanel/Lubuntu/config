@@ -1,0 +1,4 @@
+[Command]
+FileManager=pacman %s
+Terminal=terminator -e
+Logout=lubuntu-logout

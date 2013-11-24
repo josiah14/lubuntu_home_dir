@@ -1,0 +1,162 @@
+{
+   "add": {
+      "message": "P\u0159idat"
+   },
+   "add_domain_button": {
+      "message": "P\u0159idat dom\u00E9nu"
+   },
+   "add_filter_button": {
+      "message": "P\u0159idat filtr"
+   },
+   "add_filters_msg": {
+      "message": "P\u0159idat filtr(y)?"
+   },
+   "add_your_own_filters": {
+      "message": "P\u0159idejte sv\u00E9 vlastn\u00ED filtry"
+   },
+   "apply_changes": {
+      "message": "Pou\u017E\u00EDt zm\u011Bny"
+   },
+   "block_element": {
+      "message": "Blokovat element"
+   },
+   "cancel": {
+      "message": "Zru\u0161it"
+   },
+   "clickhide_instructions": {
+      "message": "Po zav\u0159en\u00ED tohoto vyskakovac\u00EDho okna, klikn\u011Bte lev\u00FDm (nebo prav\u00FDm) tla\u010D\u00EDtkem my\u0161i na element na str\u00E1nce."
+   },
+   "description": {
+      "message": "Bezplatn\u00FD n\u00E1stroj na blokov\u00E1n\u00ED reklam pro Chrome: Blokuje otravn\u00E9 video reklamy na YouTube, Facebookov\u00E9 reklamy, bannery a mnohem v\u00EDce."
+   },
+   "disable_inline": {
+      "message": "Zak\u00E1zat \"inline text\" reklamy"
+   },
+   "disabled_for_these_domains": {
+      "message": "Adblock Plus je zak\u00E1z\u00E1n pro dom\u00E9ny uvedeny n\u00ED\u017Ee. M\u016F\u017Eete p\u0159idat dom\u00E9nu bu\u010Fto ikonou Adblock Plus v adresov\u00E9 li\u0161t\u011B nebo naps\u00E1n\u00EDm dom\u00E9ny ( ne URL) do textov\u00E9ho pole a kliknut\u00EDm na tla\u010D\u00EDtko \"P\u0159idat dom\u00E9nu\"."
+   },
+   "easy_create_filter": {
+      "message": "Jednoduch\u00E9 vytvo\u0159en\u00ED filtru"
+   },
+   "edit_filters_raw": {
+      "message": "Upravit filtry jako b\u011B\u017En\u00FD text"
+   },
+   "enable_only_the": {
+      "message": "Povolte pouze filtry,kter\u00E9 pot\u0159ebujete.P\u0159\u00EDli\u0161 mnoho m\u016F\u017Ee zp\u016Fsobit,\u017Ee Chrome nebude odpov\u00EDdat."
+   },
+   "enabled_for_site": {
+      "message": "Povolit pro tuto str\u00E1nku"
+   },
+   "filter_lists": {
+      "message": "Seznam filtr\u016F"
+   },
+   "filter_must_follow_syntax": {
+      "message": "V\u00E1\u0161 filtr mus\u00ED obsahovat \u003Ca\u003EFiltrovou syntaxi Adblocku Plus\u003C/a\u003E."
+   },
+   "filters_acceptableAds2_label": {
+      "message": "Povolit n\u011Bkter\u00E9 neru\u0161iv\u00E9 reklamy"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "P\u0159idat"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "P\u0159idat dal\u0161\u00ED sadu ciz\u00EDch filtr\u016F"
+   },
+   "filters_addSubscription_label": {
+      "message": "P\u0159idat ciz\u00ED filtry"
+   },
+   "filters_readMore_label": {
+      "message": "Zjistit v\u00EDce"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Smazat"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Povoleno"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Chyba, neodpov\u00EDd\u00E1 kontroln\u00ED sou\u010Det"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Chyba, nepoda\u0159ilo se st\u00E1hnout soubor"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Stahuji..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Chyba, sta\u017Een\u00FD soubor nen\u00ED souborem filtr\u016F Adblock Plus"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Chyba, toto je nekorektn\u00ED adresa."
+   },
+   "filters_viewList_label": {
+      "message": "Zobrazit seznam"
+   },
+   "found_a_bug": {
+      "message": "Na\u0161li jste chybu? Chcete p\u0159elo\u017Eit Adblock Plus do va\u0161eho jazyka? Pros\u00EDm \u003Ca\u003Evypl\u0148te \u017E\u00E1dost zde\u003C/a\u003E."
+   },
+   "general": {
+      "message": "Obecn\u00E9"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Skute\u010Dn\u011B si p\u0159ejete odstranit tuto sadu ciz\u00EDch filtr\u016F ?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Zadan\u00E1 adresa seznamu ciz\u00EDch filtr\u016F je bu\u010F nespr\u00E1vn\u00E1 URL nebo obsahuje nespr\u00E1vn\u00E9 jm\u00E9no souboru."
+   },
+   "last_updated_at": {
+      "message": "Naposled aktualizov\u00E1no v $time$ $date$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "message": "Naposled aktualizov\u00E1no dnes v $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Adblock Plus"
+   },
+   "options": {
+      "message": "Mo\u017Enosti Adblock Plus"
+   },
+   "out_of_date_lists": {
+      "message": "Zastaral\u00E9 seznamy jsou pravideln\u011B aktualizov\u00E1ny."
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "Skr\u00FDt z\u00E1stupn\u00E9 objekty blokovan\u00FDch prvk\u016F"
+   },
+   "remove_button": {
+      "message": "Odebrat vybran\u00E9"
+   },
+   "show_block_element_menu": {
+      "message": "Uk\u00E1zat 'Blokovat Element' v menu p\u0159i kliknut\u00ED prav\u00FDm tla\u010D\u00EDtkem my\u0161i"
+   },
+   "show_icon": {
+      "message": "Zobrazit ikonu v adresn\u00EDm \u0159\u00E1dku"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Um\u00EDst\u011Bn\u00ED sady filtr\u016F:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Pros\u00EDm vyberte sadu filtr\u016F ze seznamu:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Ozna\u010Den\u00ED ciz\u00EDch filtr\u016F:"
+   },
+   "update_now": {
+      "message": "Aktualizovat nyn\u00ED"
+   },
+   "whitelisted_domains": {
+      "message": "Povolen\u00E9 dom\u00E9ny"
+   }
+}

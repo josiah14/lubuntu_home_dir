@@ -1,0 +1,23 @@
+Set the digital clock format.
+    1. Right click on the time in the taskbar and select "Digital Clock Settings".  
+    2. %R is for 24hr format, %r is for 12hr.
+
+Icons and Themes
+    1. icons
+	a. sudo add-apt-repository ppa:upubuntu-com/nitrux
+    2. gtk theme
+        a. Flat Studio: http://gnome-look.org/content/show.php/FlatStudio?content=154296 
+    3. openbox theme
+        a. Blue Smoke: http://box-look.org/content/download.php?content=84081&id=1&tan=60729539 
+    4. Task Bar
+        a. Right-click -> Panel Settings -> System Theme.
+
+Launchy
+    1. http://www.launchy.net/download.php#linux 
+
+Terminator
+    1. sudo apt-get terminator
+
+Bashrc
+    1. set -o vi
+

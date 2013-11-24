@@ -1,0 +1,201 @@
+** Message: utils.vala:68: User config used : /home/josiah/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/josiah/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:485: Key file does not have key 'panel/command'
+** Message: settings.vala:485: Key file does not have key 'dock/command'
+** Message: settings.vala:485: Key file does not have key 'file_manager/command'
+** Message: settings.vala:485: Key file does not have key 'desktop_manager/command'
+** Message: settings.vala:485: Key file does not have key 'launcher_manager/command'
+** Message: settings.vala:485: Key file does not have key 'composite_manager/command'
+** Message: settings.vala:485: Key file does not have key 'im1/command'
+** Message: settings.vala:485: Key file does not have key 'im2/command'
+** Message: settings.vala:485: Key file does not have key 'widget1/command'
+** Message: settings.vala:485: Key file does not have key 'model'
+** Message: settings.vala:485: Key file does not have key 'options'
+** Message: settings.vala:485: Key file does not have group 'XRandr'
+** Message: settings.vala:485: Key file does not have key 'screensaver/command'
+** Message: settings.vala:485: Key file does not have key 'power_manager/command'
+** Message: settings.vala:485: Key file does not have key 'polkit/command'
+** Message: settings.vala:485: Key file does not have key 'network_gui/command'
+** Message: settings.vala:485: Key file does not have key 'audio_manager/command'
+** Message: settings.vala:485: Key file does not have key 'quit_manager/command'
+** Message: settings.vala:485: Key file does not have key 'quit_manager/image'
+** Message: settings.vala:485: Key file does not have key 'quit_manager/layout'
+** Message: settings.vala:485: Key file does not have key 'workspace_manager/command'
+** Message: settings.vala:485: Key file does not have key 'terminal_manager/command'
+** Message: settings.vala:485: Key file does not have key 'screenshot_manager/command'
+** Message: settings.vala:485: Key file does not have key 'upgrade_manager/command'
+** Message: settings.vala:485: Key file does not have key 'clipboard/command'
+** Message: settings.vala:485: Key file does not have key 'disable_autostart'
+** Message: settings.vala:485: Key file does not have key 'upstart_user_session'
+** Message: settings.vala:485: Key file does not have group 'State'
+** Message: settings.vala:485: Key file does not have group 'State'
+** Message: settings.vala:485: Key file does not have group 'Dbus'
+** Message: settings.vala:485: Key file does not have group 'Dbus'
+** Message: settings.vala:485: Key file does not have group 'Security'
+** Message: settings.vala:485: Key file does not have group 'a11y'
+** Message: settings.vala:485: Key file does not have group 'Updates'
+** Message: settings.vala:485: Key file does not have group 'Environment'
+** Message: settings.vala:485: Key file does not have group 'Environment'
+** Message: settings.vala:421: Monitoring: /home/josiah/.config/lxsession/Lubuntu/desktop.conf
+** Message: settings.vala:425: Desktop file is already in config home, do nothing
+** Message: environement.vala:56: Exporting variable
+** Message: environement.vala:57: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:144: custom_config :/etc/xdg/lubuntu:/etc/xdg
+** Message: environement.vala:145: config_dirs :/etc/xdg/xdg-Lubuntu:/usr/share/upstart/xdg:/etc/xdg
+** Message: environement.vala:146: confir_dirs not null, export : /etc/xdg/lubuntu:/etc/xdg:/etc/xdg/xdg-Lubuntu:/usr/share/upstart/xdg:/etc/xdg
+** Message: environement.vala:151: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:163: custom_data :/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:164: data_dirs :/etc/xdg/xdg-Lubuntu:/usr/share/upstart/xdg:/etc/xdg
+** Message: environement.vala:165: data_dirs not null, export : /etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/etc/xdg/xdg-Lubuntu:/usr/share/upstart/xdg:/etc/xdg
+** Message: environement.vala:170: Exporting XDG_DATA_DIRS
+** Message: utils.vala:79: Config system location : /etc/xdg/xdg-Lubuntu/lxsession/Lubuntu
+** Message: utils.vala:79: Config system location : /usr/share/upstart/xdg/lxsession/Lubuntu
+** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/Lubuntu
+** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/Lubuntu/conffiles.conf
+** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/Lubuntu/conffiles.conf
+** Message: utils.vala:68: User config used : /home/josiah/.config/lxsession/Lubuntu/desktop.conf
+** Message: utils.vala:89: Final file used : /home/josiah/.config/lxsession/Lubuntu/desktop.conf
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: utils.vala:68: User config used : /home/josiah/.config/lxsession/Lubuntu/autostart
+** Message: utils.vala:89: Final file used : /home/josiah/.config/lxsession/Lubuntu/autostart
+** Message: autostart.vala:44: Autostart path : /home/josiah/.config/lxsession/Lubuntu/autostart
+** Message: app.vala:75: Launching lxpanel 
+** Message: app.vala:75: Launching xscreensaver 
+** Message: app.vala:75: Launching xfce4-power-manager 
+** Message: app.vala:75: Launching pcmanfm 
+** Message: app.vala:75: Launching /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 
+** Message: options.vala:210: Create build-in Clipboard
+ 2577 ?        00:00:00 VBoxClient
+ 2585 ?        00:00:00 VBoxClient
+ 1682 ?        00:00:00 VBoxClient
+ 2581 ?        00:00:00 VBoxClient
+ 2590 ?        00:00:00 VBoxClient
+/bin/sh: 1: /home/josiah/start.sh: not found
+** Message: main.vala:395: Check keymap_mode user
+** Message: main.vala:398: Create Option Keymap
+** Message: options.vala:87: Show keymap variant : dvorak
+** Message: options.vala:100: Keymap options - return user command setxkbmap -layout us -variant dvorak 
+** Message: options.vala:46: Options - Launch command setxkbmap -layout us -variant dvorak 
+** Message: app.vala:129: xfce4-power-manager exit with this type of exit: 0
+** Message: app.vala:138: Exit normal, don't reload
+Unable to access XDG_SESSION_COOKIE for pid 2670
+
+(polkit-gnome-authentication-agent-1:2667): GLib-CRITICAL **: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:2667): polkit-gnome-1-WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+Bad _NET_DESKTOP with data[0]=-1
+indicator: unknown var network
+** Message: applet now removed from the notification area
+[2870:2870:1124/144824:ERROR:profile_sync_service.cc(1222)] History Delete Directives datatype error was encountered: Delete directives not supported with encryption.
+[34:34:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[37:37:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[40:40:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[43:43:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[22:22:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[19:19:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[50:50:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[13:13:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[46:46:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[25:25:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[31:31:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[28:28:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[49:49:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[10:10:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[16:16:1124/144824:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[2870:2870:1124/144825:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[7:7:1124/144825:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+[2870:2928:1124/144829:ERROR:form_data.cc(108)] Bad pickle of FormData, no version present
+OpenGL Warning: glFlushVertexArrayRangeNV not found in mesa table
+OpenGL Warning: glVertexArrayRangeNV not found in mesa table
+OpenGL Warning: glCombinerInputNV not found in mesa table
+OpenGL Warning: glCombinerOutputNV not found in mesa table
+OpenGL Warning: glCombinerParameterfNV not found in mesa table
+OpenGL Warning: glCombinerParameterfvNV not found in mesa table
+OpenGL Warning: glCombinerParameteriNV not found in mesa table
+OpenGL Warning: glCombinerParameterivNV not found in mesa table
+OpenGL Warning: glFinalCombinerInputNV not found in mesa table
+OpenGL Warning: glGetCombinerInputParameterfvNV not found in mesa table
+OpenGL Warning: glGetCombinerInputParameterivNV not found in mesa table
+OpenGL Warning: glGetCombinerOutputParameterfvNV not found in mesa table
+OpenGL Warning: glGetCombinerOutputParameterivNV not found in mesa table
+OpenGL Warning: glGetFinalCombinerInputParameterfvNV not found in mesa table
+OpenGL Warning: glGetFinalCombinerInputParameterivNV not found in mesa table
+OpenGL Warning: glDeleteFencesNV not found in mesa table
+OpenGL Warning: glFinishFenceNV not found in mesa table
+OpenGL Warning: glGenFencesNV not found in mesa table
+OpenGL Warning: glGetFenceivNV not found in mesa table
+OpenGL Warning: glIsFenceNV not found in mesa table
+OpenGL Warning: glSetFenceNV not found in mesa table
+OpenGL Warning: glTestFenceNV not found in mesa table
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+OpenGL Warning: glXChooseFBConfig returning NULL, due to attrib=0x2, next=0x20
+[3123:3123:1124/144832:ERROR:gl_surface_glx.cc(739)] glXChooseFBConfig failed.
+[3123:3123:1124/144832:ERROR:gpu_info_collector.cc(27)] gfx::GLContext::CreateOffscreenGLSurface failed
+[3123:3123:1124/144832:ERROR:sandbox_linux.cc(142)] InitializeSandbox() called with multiple threads in process gpu-process
+[81:81:1124/145030:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[85:85:1124/145039:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+[2870:2933:1124/145043:ERROR:audio_manager_base.cc(422)] Not implemented reached in virtual std::string media::AudioManagerBase::GetDefaultOutputDeviceID()
+** Message: app.vala:129: lxpanel exit with this type of exit: 15
+** Message: app.vala:141: Exit by the user, don't reload
+** Message: using fallback from indicator to GtkStatusIcon
+[103:103:1124/145201:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[108:108:1124/145233:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[112:112:1124/145327:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+** Message: dbus-lxde-session.vala:148: Start Quit Manager
+** Message: app.vala:75: Launching lxsession-logout 
+** Message: app.vala:129: lxsession-logout exit with this type of exit: 0
+[117:117:1124/145427:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+xmonad is /usr/bin/xmonad
+Error detected while loading xmonad configuration file: /home/josiah/.xmonad/xmonad.hs
+
+xmonad.hs:156:10:
+    Couldn't match expected type `(String -> m0 ())
+                                  -> [Char] -> ((ButtonMask, KeySym), X ())'
+                with actual type `(KeyMask, KeySym)'
+    The function `(myModMask .|. shiftMask, xK_q)'
+    is applied to two arguments,
+    but its type `(KeyMask, KeySym)' has none
+    In the expression:
+      ((myModMask .|. shiftMask, xK_q) spawn "lxsession-default quit")
+    In the second argument of `additionalKeys', namely
+      `[((myModMask, xK_e), spawn "pcmanfm"),
+        ((myModMask .|. shiftMask, xK_m), 
+         sendMessage RestoreNextMinimizedWin),
+        ((myModMask, xK_g), goToSelected defaultGSConfig),
+        ((myModMask, xK_x), kill), ....]'
+
+Please check the file for errors.
+
+xmonad is /usr/bin/xmonad
+/bin/sh: 1: /home/josiah/start.sh: Permission denied
+quit
+
+Launching quit manager
+** Message: dbus-lxde-session.vala:148: Start Quit Manager
+** Message: app.vala:75: Launching lxsession-logout 
+** Message: app.vala:129: lxsession-logout exit with this type of exit: 0
+[121:121:1124/145827:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[130:130:1124/145854:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[134:134:1124/145927:ERROR:base_feature_provider.cc(122)] manifestTypes: Allowing web_page contexts requires supplying a value for matches.
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+[2870:2933:1124/150012:ERROR:audio_manager_base.cc(422)] Not implemented reached in virtual std::string media::AudioManagerBase::GetDefaultOutputDeviceID()

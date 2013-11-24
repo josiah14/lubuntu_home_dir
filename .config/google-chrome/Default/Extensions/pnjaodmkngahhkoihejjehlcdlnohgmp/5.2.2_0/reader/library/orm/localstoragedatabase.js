@@ -1,0 +1,3 @@
+var LocalStorageDatabase = Database.extend({
+	
+});

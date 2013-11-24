@@ -1,0 +1,20 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Extension Updates</key>
+   <array>
+     <dict>
+       <key>CFBundleIdentifier</key>
+       <string>com.rootof.Feeder</string>
+       <key>Developer Identifier</key>
+       <string>5G825WGNX6</string>
+       <key>CFBundleVersion</key>
+       <string>$VERSION</string>
+       <key>CFBundleShortVersionString</key>
+       <string>$VERSION</string>
+       <key>URL</key>
+       <string>http://feeder.co/Feeder.safariextz</string>
+     </dict>
+   </array>
+</dict>
+</plist>

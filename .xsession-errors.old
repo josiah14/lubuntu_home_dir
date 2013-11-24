@@ -1,0 +1,4 @@
+Script for cjkv started at run_im.
+Script for default started at run_im.
+init: lxsession main process (1725) killed by TERM signal
+init: upstart-dbus-session-bridge main process (1734) terminated with status 1

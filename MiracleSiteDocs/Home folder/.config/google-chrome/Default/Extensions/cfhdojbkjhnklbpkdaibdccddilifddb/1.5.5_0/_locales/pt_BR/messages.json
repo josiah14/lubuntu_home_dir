@@ -1,0 +1,201 @@
+{
+   "add": {
+      "message": "Adicionar"
+   },
+   "add_domain_button": {
+      "message": "Adicionar dom\u00EDnio"
+   },
+   "add_filter_button": {
+      "message": "Adicionar filtro"
+   },
+   "add_filters_msg": {
+      "message": "Adicionar filtro(s)?"
+   },
+   "add_your_own_filters": {
+      "message": "Adicione seus pr\u00F3prios filtros"
+   },
+   "apply_changes": {
+      "message": "Aplicar mudan\u00E7as"
+   },
+   "block_element": {
+      "message": "Bloquear Elemento"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "clickhide_instructions": {
+      "message": "Ap\u00F3s o encerramento desta janela, clique (ou d\u00EA um clique com o bot\u00E3o direito) em um elemento da p\u00E1gina."
+   },
+   "description": {
+      "message": "O bloqueador de propagandas gr\u00E1tis para o Chrome: Bloqueie an\u00FAncios irritantes no youtube, no facebook, e muito mais."
+   },
+   "disable_inline": {
+      "message": "Desativar propagandas de texto em linha"
+   },
+   "disabled_for_these_domains": {
+      "message": "O Adblock Plus est\u00E1 desabilitado para os dom\u00EDnios abaixo. Voc\u00EA pode adicionar um dom\u00EDnio, tanto pelo \u00EDcone do Adblock Plus na barra de endere\u00E7os, quanto digitando o dom\u00EDnio (n\u00E3o a URL) dentro da caixa e clicando no bot\u00E3o \"Adicionar dom\u00EDnio\"."
+   },
+   "easy_create_filter": {
+      "message": "Crie f\u00E1cil um filtro"
+   },
+   "edit_filters_raw": {
+      "message": "Editar filtros manualmente"
+   },
+   "enable_only_the": {
+      "message": "Habilitar somente as listas de filtros que voc\u00EA precisa. Muitos filtros simult\u00E2neos podem causar o travamento do seu Chrome."
+   },
+   "enabled_for_site": {
+      "message": "Habilitado para esse site"
+   },
+   "filter_lists": {
+      "message": "Lista de Filtros"
+   },
+   "filter_must_follow_syntax": {
+      "message": "Seu filtro deve seguir o \u003Ca\u003Euso correto do filtro sintaxe de Adblock plus\u003C/a\u003E."
+   },
+   "filters_acceptableAds2_label": {
+      "message": "Permitir algumas propagandas n\u00E3o-invasivas"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "Adicionar"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Adicionar outra inscri\u00E7\u00E3o"
+   },
+   "filters_addSubscription_label": {
+      "message": "Adicionar inscri\u00E7\u00E3o de filtros"
+   },
+   "filters_readMore_label": {
+      "message": "Saiba mais"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Excluir"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Ativado"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Falhou, checksum deu errado"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Falhou, falha no download"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Fazendo download..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Falhou, n\u00E3o \u00E9 uma lista de filtros v\u00E1lida"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Falhou, n\u00E3o \u00E9 um endere\u00E7o v\u00E1lido"
+   },
+   "filters_viewList_label": {
+      "message": "Ver lista"
+   },
+   "firstRun_acceptableAdsExplanation": {
+      "message": "\u003Cstrong\u003EO Adblock Plus sempre ir\u00E1 bloquear an\u00FAncios irritantes.\u003C/strong\u003EAinda assim, queremos incentivar sites a usarem publicidade simples e discreta. \u00C9 por isso que n\u00F3s estabelecemos \u003Ca\u003Ediretrizes r\u00EDgidas\u003C/a\u003E para identificar an\u00FAncios aceit\u00E1veis\u200B\u200B, e permitir que estes sejam exibidos. Voc\u00EA pode sempre \u003Ca\u003Edesativar\u003C/a\u003E isso, se voc\u00EA desejar bloquear todos os an\u00FAncios."
+   },
+   "firstRun_dataCorruptionWarning": {
+      "message": "Esta p\u00E1gina continua aparecendo? \u003Ca\u003EClique aqui!\u003C/a\u003E"
+   },
+   "firstRun_feature_malware": {
+      "message": "Bloqueio de Malware"
+   },
+   "firstRun_feature_malware_description": {
+      "message": "Bloqueia dom\u00EDnios que s\u00E3o conhecidos por serem infectados por malware para tornar a navega\u00E7\u00E3o na internet mais segura."
+   },
+   "firstRun_feature_social": {
+      "message": "Remove Bot\u00F5es de Redes Sociais"
+   },
+   "firstRun_feature_social_description": {
+      "message": "Remove a integra\u00E7\u00E3o de redes sociais como o bot\u00E3o 'Curtir' do Facebook que monitora seus h\u00E1bitos de navega\u00E7\u00E3o."
+   },
+   "firstRun_feature_tracking": {
+      "message": "Desativa o Rastreamento"
+   },
+   "firstRun_feature_tracking_description": {
+      "message": "H\u00E1 centenas de empresas de publicidade monitorando cada movimento seu, mas voc\u00EA pode facilmente desabilitar todo o rastreamento para navegar com privacidade."
+   },
+   "firstRun_features": {
+      "message": "O Adblock Plus pode fazer mais do que bloquear an\u00FAncios"
+   },
+   "firstRun_share": {
+      "message": "Acha que vale a pena compartilhar o Adblock Plus?"
+   },
+   "firstRun_title": {
+      "message": "O Adblock Plus foi instalado"
+   },
+   "firstRun_toggle_off": {
+      "message": "DESL"
+   },
+   "firstRun_toggle_on": {
+      "message": "LIG"
+   },
+   "found_a_bug": {
+      "message": "Encontrou um bug? Deseja traduzir o Adblock Plus para sua l\u00EDngua? Por favor \u003Ca\u003Earquive um pedido aqui\u003C/a\u003E."
+   },
+   "general": {
+      "message": "Geral"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Voc\u00EA realmente deseja remover esta inscri\u00E7\u00E3o?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "O local da lista de filtros n\u00E3o \u00E9 nem uma URL v\u00E1lida nem um nome v\u00E1lido de arquivo."
+   },
+   "last_updated_at": {
+      "message": "\u00DAltima atualiza\u00E7\u00E3o \u00E0s $time$ em $date$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "message": "\u00DAltima atualiza\u00E7\u00E3o \u00E0s $time$ hoje",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Adblock Plus"
+   },
+   "options": {
+      "message": "Op\u00E7\u00F5es do Adblock Plus"
+   },
+   "out_of_date_lists": {
+      "message": "Listas obsoletas s\u00E3o atualizadas periodicamente."
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "Comprimir espa\u00E7o de elementos bloqueados"
+   },
+   "remove_button": {
+      "message": "Remover selecionados"
+   },
+   "show_block_element_menu": {
+      "message": "Mostrar 'Bloquear Elemento' no menu ao clicar com o bot\u00E3o direito"
+   },
+   "show_icon": {
+      "message": "Mostrar \u00EDcone na barra de endere\u00E7os"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Endere\u00E7o da lista de filtros:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Por favor, escolha uma inscri\u00E7\u00E3o de filtros da lista:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "T\u00EDtulo da inscri\u00E7\u00E3o:"
+   },
+   "update_now": {
+      "message": "Atualizar agora"
+   },
+   "whitelisted_domains": {
+      "message": "Dom\u00EDnios permitidos"
+   }
+}

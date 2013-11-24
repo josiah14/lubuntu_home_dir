@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<title>What is Skimlinks?</title>
+<style>
+	/* Erik hates innovation */
+	@font-face {
+		font-family: 'meta-serif';
+		src: local('☺'), url('../../library/media/fonts/meta-serif-bold-700.woff') format('woff');
+		font-weight: 700;
+		font-style: normal;
+	}
+	
+	/*@-webkit-keyframes swoosh
+	{
+		from { 
+			left: -100%;
+			-webkit-transform: scale(1.5);
+		}
+		to { 
+			left: 0;
+			-webkit-transform: scale(1);
+		}
+	}*/
+
+	body {
+		font-family: georgia, sans-serif;
+		font-size: 16px;
+		line-height: 1.4em;
+		-webkit-font-smoothing: antialiased;
+		color: #1a1a1a;
+		background: #e8eaeb;
+	}
+
+	h1 {
+		font-family: "meta-serif";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 60px;
+	}
+
+	#wrapper {
+		width: 700px;
+		margin: 0 auto;
+		margin-top: 75px;
+		position: relative;
+	/*	-webkit-animation: swoosh ease-out 500ms; */
+		padding: 40px 70px;
+		border-radius: 3px;
+		box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
+					0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+					inset 0px 0px 0px 1px rgba(255, 255, 255, 0.8);
+		background-color: #fff;
+		z-index: 2;
+	}
+
+	p {
+		-webkit-margin-before: 0.8em;
+		-webkit-margin-after: 0.8em;
+	}
+
+	small {
+		color: #a9abab;
+	}
+
+	#footer {
+		width: 634px;
+		height: 26px;
+		background: url(shadow.png);
+		margin: 0 auto;
+		position: relative;
+		z-index: 0;
+		top: -10px;
+	}
+</style>
+<link href="css/options.css" rel="stylesheet" type="text/css" />
+<div id="wrapper">
+	<h1>Skimlinks helps support Feeder</h1>
+	<p><a href="http://skimlinks.com/">Skimlinks</a> is a service that helps support Feeder by adding affiliate links to posts that link to products and services.</p>
+	<p>Our donations are awesome. But they aren't enough to support the continued development of Feeder.</p>
+	<p>Skimlinks adds a little affiliate code to outbound links that link to products and services. If you purchase a product or service from that link, we get a percentage of the purchase total.</p>
+	<p><strong>How does this affect you?</strong> It doesn't. You get your feeds and posts, and we transparently get a share of any purchases you make from Feeder.</p>
+	<p><strong>Who loses?</strong> Nobody! It's fair for everyone invovled. You, as a user, don't notice anything different, and we get paid for our service.</p>
+	<p>Awesome! Right?</p>
+	<p><strong>If you choose to disable this: We don't get anything. So we please urge you, if you for any reason choose to disable this feature, please donate to support us behind Feeder.</strong></p>
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" id="support-us-form">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="FSAFSX7L68374">
+	<input type="hidden" name="lc" value="US">
+	<table>
+	<tr style="display:none"><td><input type="hidden" name="on0" value="How much karma?">How much karma?</td></tr>
+	<tr><td><select name="os0">
+		<option value="Thank you">Thank you $3.00 USD</option>
+		<option value="Thank you, thank you">Thank you, thank you $5.00 USD</option>
+		<option value="Thank you, thank you, thank you">Thank you, thank you, thank you $10.00 USD</option>
+		<option value="Just wow">Just wow $100.00 USD</option>
+	</select> </td></tr>
+	</table>
+	<input type="hidden" name="currency_code" value="USD">
+	<button type="submit" id="support-us-button">Support us</a>
+	</form>
+</div>

@@ -1,0 +1,90 @@
+/* styles that should only exist in the popup */
+
+/* for safari, where we have our own scrollbars */
+.html-platform-safari { overflow: hidden; }
+
+.screen-with-topbar > div { padding-top: 35px; }
+.platform-online .screen-with-topbar > div { padding-top: 45px; }
+
+.with-notifications .screen-with-topbar > div,
+.in-queue .screen-with-topbar > div { padding-top: 63px; }
+
+.platform-online.with-notifications .screen-with-topbar > div,
+.platform-online.in-queue .screen-with-topbar > div {
+	padding-top: 75px;
+}
+
+.platform-online.with-notifications .viewcontroller-animated .bar,
+.platform-online.in-queue .viewcontroller-animated .bar {
+	top: 30px !important;
+}
+
+.in-animation.with-notifications .screen-with-topbar > div,
+.in-animation.in-queue .screen-with-topbar > div { padding-top: 35px; }
+
+.organize-mode .tpl-screen-folder > div { padding-top: 70px; }
+.organize-mode.platform-online .tpl-screen-folder > div { padding-top: 90px; }
+
+/* size of the tpl-popup-head depending on content */
+.tpl-popup-head { height: 30px; } /* with-notifications */
+
+/* position of content and bar depending on tpl-popup-head */
+.with-notifications .bar,
+.in-queue .bar { top: 30px; }
+
+/* hide notifications bar when in queue */
+.in-queue #notifications { display: none; }
+
+/* size of the tpl-popup-head depending on content */
+.tpl-popup-head { height: 30px; } /* with-notifications */
+
+/* position of content and bar depending on tpl-popup-head */
+.with-notifications .bar,
+.in-queue .bar { top: 30px; }
+
+/* hide notifications bar when in queue */
+.in-queue.with-notifications #notifications { display: none; }
+
+.platform-safari .bar { width: 323px; }
+
+#notifications {
+	text-align: center;
+	line-height: 33px;
+	background: -webkit-linear-gradient(top, #e2efdc 0%,#cae9bd 100%);
+	border: 1px solid #b0cca3;
+	border-bottom: 1px solid #b3b3b3;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+	height: 27px; /* 30px - 2px margin - 1px border-top */
+	line-height: 27px;
+	margin: 2px 1px 0 1px;
+	text-decoration: none;
+	color: #333;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+	.platform-online #notifications {
+		margin: 2px 2px 0 2px;
+	}
+	
+	.platform-chrome #notifications {
+		margin: 2px 2px 0 2px;
+	}
+	
+	.platform-safari #notifications {
+		margin: 2px 1px 0 2px;
+	}
+
+	#notifications .close {
+		top: 1px;
+	}
+
+#notifications a:focus,
+#notifications a {
+	outline: none;
+	text-decoration: none;
+	color: #333;
+}
+

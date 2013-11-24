@@ -1,0 +1,672 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link rel="shortcut icon" href="http://lxde.org/misc/favicon.ico" type="image/x-icon" />
+<title>LXDE.org Forum &bull; View topic - How can I install other LXAppearance themes???</title>
+
+
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = 'Enter the page number you wish to go to:';
+	var on_page = '1';
+	var per_page = '';
+	var base_url = '';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '; path=/; domain=forum.lxde.org';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<script type="text/javascript" src="./styles/prosilver/template/styleswitcher.js"></script>
+<script type="text/javascript" src="./styles/prosilver/template/forum_fn.js"></script>
+
+<link href="./styles/prosilver/theme/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<link href="./style.php?id=1&amp;lang=en" rel="stylesheet" type="text/css" media="screen, projection" />
+
+<link href="./styles/prosilver/theme/normal.css" rel="stylesheet" type="text/css" title="A" />
+<link href="./styles/prosilver/theme/medium.css" rel="alternate stylesheet" type="text/css" title="A+" />
+<link href="./styles/prosilver/theme/large.css" rel="alternate stylesheet" type="text/css" title="A++" />
+
+<link rel="alternate" type="application/rss+xml" title="LXDE.org Forum RSS Feed" href="./rss.php" />
+
+
+
+</head>
+
+<body id="phpbb" class="section-viewtopic ltr">
+
+<div id="wrap">
+	<a id="top" name="top" accesskey="t"></a>
+	<div id="page-header">
+		<div class="lxdeheaderbar">
+			<h1><a href="http://lxde.org">LXDE</a></h1>
+			<h2>Forum</h2>
+			<p class="subtitle">Lightweight X11 Desktop Environment</p>
+			<ul class="headerLinks">
+				<li><a href="http://lxde.org">Home</a></li>
+				<li><a href="http://download.lxde.org">Download</a></li>
+				<li><a href="http://screenshots.lxde.org">Screenshots</a></li>
+				<li><a href="http://blog.lxde.org">Blog</a></li>
+				<li><a href="http://wiki.lxde.org">Wiki</a></li>
+				<li><a href="http://planet.lxde.org">Planet</a></li>
+				<li><a href="http://forum.lxde.org">Forum</a></li>
+				<li><a href="http://join.lxde.org">Join</a></li>
+			</ul>
+		<span class="clearboth"></span>
+			</div>
+		<div class="navbar">
+			<div class="inner"><span class="corners-top"><span></span></span>
+
+			<ul class="linklist navlinks">
+				<li class="icon-home"><a href="./index.php" accesskey="h">Board index</a>  <strong>&#8249;</strong> <a href="./viewforum.php?f=14">Questions and Answers</a> <strong>&#8249;</strong> <a href="./viewforum.php?f=3">LXDE Components</a></li>
+
+				<li class="rightside"><a href="#" onclick="fontsizeup(); return false;" onkeypress="fontsizeup(); return false;" class="fontsize" title="Change font size">Change font size</a></li>
+				<li class="rightside"><a href="./viewtopic.php?f=3&amp;t=326&amp;view=print" title="Print view" accesskey="p" class="print">Print view</a></li>
+			</ul>
+
+			
+
+			<ul class="linklist rightside">
+				<li class="icon-faq"><a href="./faq.php" title="Frequently Asked Questions">FAQ</a></li>
+				<li class="icon-register"><a href="./ucp.php?mode=register">Register</a></li>
+					<li class="icon-logout"><a href="./ucp.php?mode=login" title="Login" accesskey="x">Login</a></li>
+				
+			</ul>
+
+			<span class="corners-bottom"><span></span></span></div>
+		</div>
+		
+			<div id="search-box">
+				<form action="./search.php" method="post" id="search">
+				<fieldset>
+					<input name="keywords" id="keywords" type="text" maxlength="128" title="Search for keywords" class="inputbox search" value="Search…" onclick="if(this.value=='Search…')this.value='';" onblur="if(this.value=='')this.value='Search…';" /> 
+					<input class="button2" value="Search" type="submit" />
+					
+				</fieldset>
+				</form>
+			</div>
+		
+	</div>
+
+	<a name="start_here"></a>
+	<div id="page-body">
+		<!-- global announcements --><!-- end global announcements -->
+
+<h2><a href="./viewtopic.php?f=3&amp;t=326">How can I install other LXAppearance themes???</a> &nbsp;<a href="./viewtopic.php?f=3&amp;t=326&amp;p=1568&amp;#p1568"><img src="./styles/prosilver/imageset/icon_topic_solved_head.png" width="20" height="20" alt="Topic is solved" title="Topic is solved" /></a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body --><div style="display: none !important;">All questions and problems regarding LXDE components including LXSession, LXAppearance, GPicView, Leafpad, LXTerminal, Xarchiver, LXNM to be discussed here.<br /><br /><span style="font-weight: bold">For PCManFM questions, please ask in the dedicated forum below.</span><br /></div>
+
+<div class="topic-actions">
+
+	<div class="buttons">
+	
+		<div class="reply-icon"><a href="./posting.php?mode=reply&amp;f=3&amp;t=326" title="Post a reply"><span></span>Post a reply</a></div>
+	
+	</div>
+
+	
+		<div class="search-box">
+			<form method="get" id="topic-search" action="./search.php">
+			<fieldset>
+				<input class="inputbox search tiny"  type="text" name="keywords" id="search_keywords" size="20" value="Search this topic…" onclick="if(this.value=='Search this topic…')this.value='';" onblur="if(this.value=='')this.value='Search this topic…';" />
+				<input class="button2" type="submit" value="Search" />
+				<input type="hidden" name="t" value="326" />
+<input type="hidden" name="sf" value="msgonly" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+		<div class="pagination">
+			8 posts
+			 &bull; Page <strong>1</strong> of <strong>1</strong>
+		</div>
+	
+
+</div>
+<div class="clear"></div>
+
+
+	<div id="p1058" class="post bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 class="first"><a href="#p1058">How can I install other LXAppearance themes???</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=1058#p1058"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=392">belikeyeshua</a></strong> &raquo; Wed Mar 25, 2009 12:15 pm </p>
+
+			
+
+			<div class="content">I've looked all over and I do not yet know how to do it. I wish lxde had a lxde-look.org site. <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Very Happy" /><br /><br />Anyhow, I'm running Gentoo with Compiz Fusion and Emerald. I have everything looking good but the general theme of the windows looks a little old... and big. I'd like something light and a little more modern, and slightly glossy... maybe with a blue hint to it. Preferably, with a compact look to it (my monitor is not the bigest).<br /><br />I can emerge any theme that is in portage... But I do not know which one to install, and if it will work with LXDE + Compiz Fusion + Emerald.<br /><br />Thanks.<br /><br />~Shawn</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile1058">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=392">belikeyeshua</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 5</dd><dd><strong>Joined:</strong> Mon Mar 23, 2009 9:14 am</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p1068" class="post bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p1068">Re: How can I install other LXAppearance themes???</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=1068#p1068"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=111" style="color: #FF66FF;" class="username-coloured">maces</a></strong> &raquo; Thu Mar 26, 2009 5:31 pm </p>
+
+			
+
+			<div class="content">Hi<br /><br />You can use the GTK, Openbox and Icon themes from <!-- m --><a class="postlink" href="http://gnome-look.org">http://gnome-look.org</a><!-- m -->, <!-- m --><a class="postlink" href="http://xfce-look.org">http://xfce-look.org</a><!-- m --> or <!-- m --><a class="postlink" href="http://box-look.org">http://box-look.org</a><!-- m --><br /><br />maces</div>
+
+			<div id="sig1068" class="signature"><a href="http://www.maces-net.de" class="postlink">maces-net.de</a> | <a href="http://de.youtube.com/watch?v=Zvel6FB97j0&amp;feature=PlayList&amp;p=CC4F9C7AC399EE00&amp;index=0&amp;playnext=1" class="postlink">LXDE-Screencasts</a> | <a href="http://www.archlinux.org" class="postlink">Archlinux</a> | <a href="http://www.lxde.org" class="postlink">LXDE</a></div>
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile1068">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=111" style="color: #FF66FF;" class="username-coloured">maces</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 503</dd><dd><strong>Joined:</strong> Sat Oct 25, 2008 7:04 pm</dd>
+			<dd>
+				<ul class="profile-icons">
+					<li class="web-icon"><a href="http://www.maces-net.de" title="WWW: http://www.maces-net.de"><span>Website</span></a></li>
+				</ul>
+			</dd>
+		
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p1556" class="post bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p1556">Re: How can I install other LXAppearance themes???</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=1556#p1556"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=537">geckoguykc</a></strong> &raquo; Sun May 31, 2009 10:37 pm </p>
+
+			
+
+			<div class="content">There is an install button on the icon themes tab, but not in the window tab. How do I install gtk themes? As in I've downloaded a theme package, how do i use it in LXappearance?</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile1556">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=537">geckoguykc</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 5</dd><dd><strong>Joined:</strong> Sun May 31, 2009 10:31 pm</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p1563" class="post bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p1563">Re: How can I install other LXAppearance themes???</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=1563#p1563"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=111" style="color: #FF66FF;" class="username-coloured">maces</a></strong> &raquo; Mon Jun 01, 2009 3:09 pm </p>
+
+			
+
+			<div class="content">Place your themes in ~/.themes and your icons in ~/.icons than you can choose them from LXAppearance.<br /><br />maces</div>
+
+			<div id="sig1563" class="signature"><a href="http://www.maces-net.de" class="postlink">maces-net.de</a> | <a href="http://de.youtube.com/watch?v=Zvel6FB97j0&amp;feature=PlayList&amp;p=CC4F9C7AC399EE00&amp;index=0&amp;playnext=1" class="postlink">LXDE-Screencasts</a> | <a href="http://www.archlinux.org" class="postlink">Archlinux</a> | <a href="http://www.lxde.org" class="postlink">LXDE</a></div>
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile1563">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=111" style="color: #FF66FF;" class="username-coloured">maces</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 503</dd><dd><strong>Joined:</strong> Sat Oct 25, 2008 7:04 pm</dd>
+			<dd>
+				<ul class="profile-icons">
+					<li class="web-icon"><a href="http://www.maces-net.de" title="WWW: http://www.maces-net.de"><span>Website</span></a></li>
+				</ul>
+			</dd>
+		
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p1564" class="post bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p1564">Re: How can I install other LXAppearance themes???</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=1564#p1564"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=537">geckoguykc</a></strong> &raquo; Mon Jun 01, 2009 9:41 pm </p>
+
+			
+
+			<div class="content">well there was no ~/.themes, so I made one, and it didn't show up in lxappearance.</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile1564">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=537">geckoguykc</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 5</dd><dd><strong>Joined:</strong> Sun May 31, 2009 10:31 pm</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p1568" class="post bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p1568">Re: How can I install other LXAppearance themes???&nbsp;&nbsp;<img src="./styles/prosilver/imageset/icon_topic_solved_post.png" width="16" height="16" alt="Topic is solved" title="Topic is solved" /></a></h3>
+			<p class="author"><a href="./viewtopic.php?p=1568#p1568"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=111" style="color: #FF66FF;" class="username-coloured">maces</a></strong> &raquo; Tue Jun 02, 2009 4:23 pm </p>
+
+			
+
+			<div class="content"><blockquote><div><cite>geckoguykc wrote:</cite>well there was no ~/.themes, so I made one, and it didn't show up in lxappearance.</div></blockquote><br />For me this works perfect. Maybe your theme is broken? What does ls ~/.themes say?<br /><br />maces</div>
+
+			<div id="sig1568" class="signature"><a href="http://www.maces-net.de" class="postlink">maces-net.de</a> | <a href="http://de.youtube.com/watch?v=Zvel6FB97j0&amp;feature=PlayList&amp;p=CC4F9C7AC399EE00&amp;index=0&amp;playnext=1" class="postlink">LXDE-Screencasts</a> | <a href="http://www.archlinux.org" class="postlink">Archlinux</a> | <a href="http://www.lxde.org" class="postlink">LXDE</a></div>
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile1568">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=111" style="color: #FF66FF;" class="username-coloured">maces</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 503</dd><dd><strong>Joined:</strong> Sat Oct 25, 2008 7:04 pm</dd>
+			<dd>
+				<ul class="profile-icons">
+					<li class="web-icon"><a href="http://www.maces-net.de" title="WWW: http://www.maces-net.de"><span>Website</span></a></li>
+				</ul>
+			</dd>
+		
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p1570" class="post bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p1570">Re: How can I install other LXAppearance themes???</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=1570#p1570"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=537">geckoguykc</a></strong> &raquo; Tue Jun 02, 2009 5:34 pm </p>
+
+			
+
+			<div class="content">You are correct. The folders weren't arranged correctly in the extracted theme. I just arranged them like other themes and it started working.</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile1570">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=537">geckoguykc</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 5</dd><dd><strong>Joined:</strong> Sun May 31, 2009 10:31 pm</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p2098" class="post bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p2098">Re: How can I install other LXAppearance themes???</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=2098#p2098"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=670">bilbolehobitte</a></strong> &raquo; Thu Aug 13, 2009 2:08 pm </p>
+
+			
+
+			<div class="content">Hello <br />I just wanted to know what kind of package did you download?</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile2098">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=670">bilbolehobitte</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 1</dd><dd><strong>Joined:</strong> Thu Aug 13, 2009 2:06 pm</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<form id="viewtopic" method="post" action="./viewtopic.php?f=3&amp;t=326">
+
+	<fieldset class="display-options" style="margin-top: 0; ">
+		
+		<label>Display posts from previous: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+		<label>Sort by <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label> <label><select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select> <input type="submit" name="sort" value="Go" class="button2" /></label>
+		
+	</fieldset>
+
+	</form>
+	<hr />
+
+
+<div class="topic-actions">
+	<div class="buttons">
+	
+		<div class="reply-icon"><a href="./posting.php?mode=reply&amp;f=3&amp;t=326" title="Post a reply"><span></span>Post a reply</a></div>
+	
+	</div>
+
+	
+		<div class="pagination">
+			8 posts
+			 &bull; Page <strong>1</strong> of <strong>1</strong>
+		</div>
+	
+</div>
+
+
+	<p></p><p><a href="./viewforum.php?f=3" class="left-box left" accesskey="r">Return to LXDE Components</a></p>
+
+	<form method="post" id="jumpbox" action="./viewforum.php" onsubmit="if(this.f.value == -1){return false;}">
+
+	
+		<fieldset class="jumpbox">
+	
+			<label for="f" accesskey="j">Jump to:</label>
+			<select name="f" id="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+			
+				<option value="-1">Select a forum</option>
+			<option value="-1">------------------</option>
+				<option value="14">Questions and Answers</option>
+			
+				<option value="8">&nbsp; &nbsp;General Help</option>
+			
+				<option value="1">&nbsp; &nbsp;Installation and Upgrade of LXDE</option>
+			
+				<option value="5">&nbsp; &nbsp;Hardware &amp; Laptops with LXDE</option>
+			
+				<option value="6">&nbsp; &nbsp;Networking &amp; Wireless</option>
+			
+				<option value="3" selected="selected">&nbsp; &nbsp;LXDE Components</option>
+			
+				<option value="21">&nbsp; &nbsp;&nbsp; &nbsp;LXPanel</option>
+			
+				<option value="23">&nbsp; &nbsp;&nbsp; &nbsp;LXSession (Lite)</option>
+			
+				<option value="24">&nbsp; &nbsp;&nbsp; &nbsp;LXAppearance</option>
+			
+				<option value="25">&nbsp; &nbsp;&nbsp; &nbsp;GPicView</option>
+			
+				<option value="26">&nbsp; &nbsp;&nbsp; &nbsp;LXTerminal</option>
+			
+				<option value="27">&nbsp; &nbsp;&nbsp; &nbsp;LXNM</option>
+			
+				<option value="22">&nbsp; &nbsp;PCManFM</option>
+			
+				<option value="38">Lubuntu</option>
+			
+				<option value="39">&nbsp; &nbsp;Technical Support</option>
+			
+				<option value="47">&nbsp; &nbsp;&nbsp; &nbsp;Beginners</option>
+			
+				<option value="45">&nbsp; &nbsp;&nbsp; &nbsp;General Support</option>
+			
+				<option value="46">&nbsp; &nbsp;&nbsp; &nbsp;Networking Support</option>
+			
+				<option value="40">&nbsp; &nbsp;Follow Lubuntu</option>
+			
+				<option value="41">&nbsp; &nbsp;Lubuntu Development</option>
+			
+				<option value="42">&nbsp; &nbsp;Your Opinion does matter</option>
+			
+				<option value="49">&nbsp; &nbsp;Lubuntu HOWTOs</option>
+			
+				<option value="15">Developments and Improvements</option>
+			
+				<option value="4">&nbsp; &nbsp;LXDE Development &amp; Programming</option>
+			
+				<option value="13">&nbsp; &nbsp;LXDE Design Project</option>
+			
+				<option value="12">&nbsp; &nbsp;LXDE Translation Project</option>
+			
+				<option value="16">&nbsp; &nbsp;Spread LXDE</option>
+			
+				<option value="7">&nbsp; &nbsp;&nbsp; &nbsp;Partner Repository</option>
+			
+				<option value="11">&nbsp; &nbsp;&nbsp; &nbsp;LXDE Media</option>
+			
+				<option value="28">&nbsp; &nbsp;&nbsp; &nbsp;LXDE Social Network</option>
+			
+				<option value="31">LXDE Forum Feedback &amp; Help</option>
+			
+				<option value="32">&nbsp; &nbsp;Feedback &amp; Help</option>
+			
+				<option value="33">&nbsp; &nbsp;Admins &amp; Mods</option>
+			
+				<option value="34">&nbsp; &nbsp;LXDE Cafe</option>
+			
+				<option value="17">Global Village</option>
+			
+				<option value="19">&nbsp; &nbsp;Chinese LXDE Forum / LXDE 中文討論區</option>
+			
+				<option value="10">&nbsp; &nbsp;&nbsp; &nbsp;硬體暨筆記型電腦問題中文討論區</option>
+			
+				<option value="44">&nbsp; &nbsp;Spanish LXDE Forum</option>
+			
+				<option value="18">&nbsp; &nbsp;German language LXDE Forum / Deutschsprachiges LXDE Forum</option>
+			
+				<option value="30">&nbsp; &nbsp;French LXDE Forum / Forum français LXDE</option>
+			
+				<option value="29">&nbsp; &nbsp;Portuguese LXDE Forum / Fórum do LXDE em português</option>
+			
+				<option value="43">&nbsp; &nbsp;Arabic LXDE Forum / المنتدى العربي</option>
+			
+			</select>
+			<input type="submit" value="Go" class="button2" />
+		</fieldset>
+	</form>
+
+
+	<h3>Who is online</h3>
+	<p>Users browsing this forum: No registered users and 1 guest</p>
+</div>
+
+<div id="page-footer">
+
+	<div class="navbar">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<ul class="linklist">
+			<li class="icon-home"><a href="./index.php" accesskey="h">Board index</a></li>
+				
+			<li class="rightside"><a href="./memberlist.php?mode=leaders">The team</a> &bull; <a href="./ucp.php?mode=delete_cookies">Delete all board cookies</a> &bull; All times are UTC [ <abbr title="Daylight Saving Time">DST</abbr> ]</li>
+		</ul>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Group
+		
+		<br />Protected by <a href="http://www.lithiumstudios.org" target="_blank">Anti-Spam ACP</a>
+		
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" name="bottom" accesskey="z"></a>
+	
+</div>
+
+</body>
+</html>

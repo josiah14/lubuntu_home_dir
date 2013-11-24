@@ -1,0 +1,1136 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Ubuntu – Details of package haskell-platform in saucy</title>
+<link rev="made" href="mailto:rhonda@ubuntu.com">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="Gerfried Fuchs, rhonda@ubuntu.com">
+<meta name="Description" content="Standard Haskell libraries and tools">
+<meta name="Keywords" content="Ubuntu,  saucy, us, universe, haskell, 2013.2.0.0">
+
+
+<link href="/ubuntu/ubuntu-new.css" rel="stylesheet" type="text/css" media="all">
+
+<script src="/packages.js" type="text/javascript"></script>
+</head>
+<body>    <div id="wrapper">
+      <div id="header">
+        <a class="imageLink"
+             href="/"><img src="/ubuntu/logo-ubuntu-header.png" width="118" height="27" alt="Ubuntu Logo" /> packages</a>
+
+        <a class="hiddenStructure"
+             href="//#documentContent">Skip
+             to content</a>
+
+
+<div id="search">
+<form method="GET" action="/search">
+<div id="hpacketsearch">
+
+
+
+
+
+
+<input type="text" size="30" name="keywords" value="" id="kw">
+<select size="1" name="searchon">
+<option value="names" selected="selected">
+package names</option>
+<option value="all" >descriptions</option>
+<option value="sourcenames" >source package names</option>
+<option value="contents" >package contents</option>
+</select>
+<input type="submit" value="Search">
+<span><a href="/">all options</a></span>
+</div> <!-- end hpacketsearch -->
+</form>
+</div>
+
+
+   </div>  <!-- header -->
+
+<div id="pnavbar">
+ » <a href="http://www.ubuntu.com/" title="Ubuntu Homepage">Ubuntu</a>
+ » <a href="/" title="Ubuntu Packages Homepage">Packages</a>
+
+ » <a href="/saucy/" title="Overview over this suite">saucy</a> 
+
+ » <a href="/saucy/haskell/" title="All packages in this section">haskell</a> 
+
+ » haskell-platform 
+
+</div> <!-- end navbar -->
+
+<div id="content">
+<!-- show.tmpl -->
+
+
+   <div id="pothers">       [&nbsp;    <a  href="/precise/haskell-platform">precise</a>  &nbsp;]
+          [&nbsp;    <a  href="/quantal/haskell-platform">quantal</a>  &nbsp;]
+          [&nbsp;   <strong>saucy</strong>  &nbsp;]
+          [&nbsp;    <a  href="/trusty/haskell-platform">trusty</a>  &nbsp;]</div>
+
+
+<div id="psource">
+  [&nbsp;Source:    <a title="Source package building this package" href="/source/saucy/haskell-platform">haskell-platform</a>  &nbsp;]
+</div>
+
+<!-- messages.tmpl -->
+
+<h1>Package: haskell-platform (2013.2.0.0)
+ [<strong class="pmarker" title="Community maintained open source software">universe</strong>] </h1>
+
+
+<div id="pmoreinfo">
+<h2>Links for haskell-platform</h2>
+
+<a id="screenshot" href="http://screenshots.debian.net/package/haskell-platform"><img src="http://screenshots.debian.net/thumbnail-with-version//haskell-platform/2013.2.0.0" alt="Screenshot" border="0"/></a>
+
+<h3>Ubuntu Resources:</h3>
+<ul>
+<li><a href="https://launchpad.net/distros/ubuntu/+source/haskell-platform/+bugs">Bug Reports</a></li>
+
+
+<li><a href="http://changelogs.ubuntu.com/changelogs/pool/universe/h/haskell-platform/haskell-platform_2013.2.0.0/changelog">Ubuntu Changelog</a></li>
+<li><a href="http://changelogs.ubuntu.com/changelogs/pool/universe/h/haskell-platform/haskell-platform_2013.2.0.0/haskell-platform.copyright">Copyright File</a></li>
+
+
+
+
+</ul>
+
+
+  <p>Download Source Package <a href="/source/saucy/haskell-platform">haskell-platform</a>:
+  
+    <ul>
+    <li><a href="http://archive.ubuntu.com/ubuntu/pool/universe/h/haskell-platform/haskell-platform_2013.2.0.0.dsc">[haskell-platform_2013.2.0.0.dsc]</a></li>
+    
+  
+    
+    <li><a href="http://archive.ubuntu.com/ubuntu/pool/universe/h/haskell-platform/haskell-platform_2013.2.0.0.tar.gz">[haskell-platform_2013.2.0.0.tar.gz]</a></li>
+    </ul>
+  
+  
+
+  <h3>Maintainer:</h3><ul>  
+	<li><a href="mailto:ubuntu-motu@lists.ubuntu.com">Ubuntu MOTU Developers</a>
+   (<a href="http://lists.ubuntu.com/archives/ubuntu-motu/" title="Archive of the Maintainer Mailinglist">Mail&nbsp;Archive</a>)
+	</li>
+</ul><p>Please consider <a href="https://bugs.launchpad.net/ubuntu/+source/haskell-platform/+filebug">filing a bug</a> or <a href="https://answers.launchpad.net/ubuntu/+source/haskell-platform/+addquestion">asking a question</a> via Launchpad before contacting the maintainer directly.</p>  <h3>Original Maintainers (usually from Debian):</h3><ul>  
+	<li>Debian Haskell Group
+   (<a href="http://lists.alioth.debian.org/pipermail/pkg-haskell-maintainers/" title="Archive of the Maintainer Mailinglist">Mail&nbsp;Archive</a>)
+	</li>
+  
+	<li>Joachim Breitner
+  
+	</li>
+</ul><p>It should generally not be necessary for users to contact the original maintainer.</p>
+
+<h3>External Resources:</h3>
+<ul>
+<li><a href="http://hackage.haskell.org/platform/">Homepage</a> [hackage.haskell.org]</li>
+</ul>
+
+
+
+	
+	<h3>Similar packages:</h3>
+	<ul>
+	
+	<li><a href="/haskell-platform-doc">haskell-platform-doc</a></li>
+	
+
+	
+	<li><a href="/c2hs">c2hs</a></li>
+	
+
+	
+	<li><a href="/c2hs-doc">c2hs-doc</a></li>
+	
+
+	
+	<li><a href="/libhugs-cabal-bundled">libhugs-cabal-bundled</a></li>
+	
+
+	
+	<li><a href="/libghc6-xml-dev">libghc6-xml-dev</a></li>
+	
+
+	
+	<li><a href="/libghc6-xml-prof">libghc6-xml-prof</a></li>
+	
+
+	
+	<li><a href="/libghc6-src-exts-prof">libghc6-src-exts-prof</a></li>
+	
+
+	
+	<li><a href="/libghc6-hunit-prof">libghc6-hunit-prof</a></li>
+	
+
+	
+	<li><a href="/libghc-strict-prof">libghc-strict-prof</a></li>
+	
+
+	
+	<li><a href="/ghc6-prof">ghc6-prof</a></li>
+	
+
+	
+	<li><a href="/lsb-build-base3">lsb-build-base3</a></li>
+	</ul>
+
+
+</div> <!-- end pmoreinfo -->
+
+
+
+
+<div id="ptablist">
+</div>
+
+
+<div id="pdesctab">
+
+<div id="pdesc" >
+	
+	<h2>Standard Haskell libraries and tools</h2>
+	<p>
+	
+
+</div> <!-- end pdesc -->
+
+
+
+
+</div> <!-- pdesctab -->
+
+
+
+
+
+      <div id="pdeps">
+    <h2>Other Packages Related to haskell-platform</h2>
+
+    <table id="pdeplegend" class="visual" summary="legend"><tr>
+    
+    <td><ul class="uldep"><li>depends</li></ul></td>
+    <td><ul class="ulrec"><li>recommends</li></ul></td>
+    <td><ul class="ulsug"><li>suggests</li></ul></td>
+    
+    </tr></table>
+
+  <ul class="uldep">
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/alex">alex</a>
+	 (<< 3.0.5+)
+        </dt>        <dd lang="en">lexical analyser generator for Haskell
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/alex">alex</a>
+	 (>= 3.0.5)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/cabal-install">cabal-install</a>
+	 (<< 1.16.0.2+)
+        </dt>        <dd lang="en">command-line interface for Cabal and Hackage
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/cabal-install">cabal-install</a>
+	 (>= 1.16.0.2)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/ghc">ghc</a>
+	 (<< 7.6.3+)
+        </dt>        <dd lang="en">The Glasgow Haskell Compilation system
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/ghc">ghc</a>
+	 (>= 7.6.3)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/ghc-haddock">ghc-haddock</a>
+	
+        </dt>        <dd lang="en">Documentation tool for annotated Haskell source code
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/happy">happy</a>
+	 (<< 1.18.10+)
+        </dt>        <dd lang="en">Parser generator for Haskell
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/happy">happy</a>
+	 (>= 1.18.10)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-async-dev">libghc-async-dev</a>
+	 (<< 2.0.1.4+)
+        </dt>        <dd lang="en">run IO operations asynchronously and wait for their results
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-async-dev">libghc-async-dev</a>
+	 (>= 2.0.1.4)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-attoparsec-dev">libghc-attoparsec-dev</a>
+	 (<< 0.10.4.0+)
+        </dt>        <dd lang="en">Fast combinator parsing for bytestrings
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-attoparsec-dev">libghc-attoparsec-dev</a>
+	 (>= 0.10.4.0)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-case-insensitive-dev">libghc-case-insensitive-dev</a>
+	 (<< 1.0.0.1+)
+        </dt>        <dd lang="en">case-insensitive string comparison
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-case-insensitive-dev">libghc-case-insensitive-dev</a>
+	 (>= 1.0.0.1)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-cgi-dev">libghc-cgi-dev</a>
+	 (<< 3001.1.8.3+)
+        </dt>        <dd lang="en">Haskell CGI library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-cgi-dev">libghc-cgi-dev</a>
+	 (>= 3001.1.8.3)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-fgl-dev">libghc-fgl-dev</a>
+	 (<< 5.4.2.4+)
+        </dt>        <dd lang="en">Haskell graph library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-fgl-dev">libghc-fgl-dev</a>
+	 (>= 5.4.2.4)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-gluraw-dev">libghc-gluraw-dev</a>
+	 (<< 1.3.0.0+)
+        </dt>        <dd lang="en">Raw binding for the OpenGL graphics system
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-gluraw-dev">libghc-gluraw-dev</a>
+	 (>= 1.3.0.0)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-glut-dev">libghc-glut-dev</a>
+	 (<< 2.4.0.0+)
+        </dt>        <dd lang="en">Haskell GLUT binding for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-glut-dev">libghc-glut-dev</a>
+	 (>= 2.4.0.0)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-hashable-dev">libghc-hashable-dev</a>
+	 (<< 1.1.2.5+)
+        </dt>        <dd lang="en">Class for types that can be converted to a hash value
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-hashable-dev">libghc-hashable-dev</a>
+	 (>= 1.1.2.5)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-haskell-src-dev">libghc-haskell-src-dev</a>
+	 (<< 1.0.1.5+)
+        </dt>        <dd lang="en">Haskell module to manipulate Haskell source
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-haskell-src-dev">libghc-haskell-src-dev</a>
+	 (>= 1.0.1.5)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-html-dev">libghc-html-dev</a>
+	 (<< 1.0.1.2+)
+        </dt>        <dd lang="en">Haskell html library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-html-dev">libghc-html-dev</a>
+	 (>= 1.0.1.2)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-http-dev">libghc-http-dev</a>
+	 (<< 1:4000.2.8+)
+        </dt>        <dd lang="en">GHC libraries for the Haskell HTTP client library
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-http-dev">libghc-http-dev</a>
+	 (>= 1:4000.2.8)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-hunit-dev">libghc-hunit-dev</a>
+	 (<< 1.2.5.2+)
+        </dt>        <dd lang="en">Haskell unit testing framework for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-hunit-dev">libghc-hunit-dev</a>
+	 (>= 1.2.5.2)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-mtl-dev">libghc-mtl-dev</a>
+	 (<< 2.1.2+)
+        </dt>        <dd lang="en">Haskell monad transformer library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-mtl-dev">libghc-mtl-dev</a>
+	 (>= 2.1.2)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-network-dev">libghc-network-dev</a>
+	 (<< 2.4.1.2+)
+        </dt>        <dd lang="en">Haskell network library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-network-dev">libghc-network-dev</a>
+	 (>= 2.4.1.2)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-opengl-dev">libghc-opengl-dev</a>
+	 (<< 2.8.0.0+)
+        </dt>        <dd lang="en">Haskell OpenGL binding for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-opengl-dev">libghc-opengl-dev</a>
+	 (>= 2.8.0.0)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-parallel-dev">libghc-parallel-dev</a>
+	 (<< 3.2.0.3+)
+        </dt>        <dd lang="en">Haskell parallel programming library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-parallel-dev">libghc-parallel-dev</a>
+	 (>= 3.2.0.3)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-parsec3-dev">libghc-parsec3-dev</a>
+	 (<< 3.1.3+)
+        </dt>        <dd lang="en">Haskell monadic parser combinator library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-parsec3-dev">libghc-parsec3-dev</a>
+	 (>= 3.1.3)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-primitive-dev">libghc-primitive-dev</a>
+	 (<< 0.5.0.1+)
+        </dt>        <dd lang="en">Wrappers for primitive operations
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-primitive-dev">libghc-primitive-dev</a>
+	 (>= 0.5.0.1)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-quickcheck2-dev">libghc-quickcheck2-dev</a>
+	 (<< 2.6+)
+        </dt>        <dd lang="en">Haskell automatic testing library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-quickcheck2-dev">libghc-quickcheck2-dev</a>
+	 (>= 2.6)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-regex-base-dev">libghc-regex-base-dev</a>
+	 (<< 0.93.2+)
+        </dt>        <dd lang="en">GHC library providing an API for regular expressions
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-regex-base-dev">libghc-regex-base-dev</a>
+	 (>= 0.93.2)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-regex-compat-dev">libghc-regex-compat-dev</a>
+	 (<< 0.95.1+)
+        </dt>        <dd lang="en">GHC library providing old Text.Regex interface
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-regex-compat-dev">libghc-regex-compat-dev</a>
+	 (>= 0.95.1)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-regex-posix-dev">libghc-regex-posix-dev</a>
+	 (<< 0.95.2+)
+        </dt>        <dd lang="en">GHC library of the POSIX regex backend for regex-base
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-regex-posix-dev">libghc-regex-posix-dev</a>
+	 (>= 0.95.2)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-split-dev">libghc-split-dev</a>
+	 (<< 0.2.2+)
+        </dt>        <dd lang="en">Haskell library for splitting lists
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-split-dev">libghc-split-dev</a>
+	 (>= 0.2.2)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-stm-dev">libghc-stm-dev</a>
+	 (<< 2.4.2+)
+        </dt>        <dd lang="en">Haskell Software Transactional Memory library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-stm-dev">libghc-stm-dev</a>
+	 (>= 2.4.2)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-syb-dev">libghc-syb-dev</a>
+	 (<< 0.4.0+)
+        </dt>        <dd lang="en">Generic programming library for Haskell
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-syb-dev">libghc-syb-dev</a>
+	 (>= 0.4.0)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-text-dev">libghc-text-dev</a>
+	 (<< 0.11.3.1+)
+        </dt>        <dd lang="en">efficient packed Unicode text type for Haskell
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-text-dev">libghc-text-dev</a>
+	 (>= 0.11.3.1)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-transformers-dev">libghc-transformers-dev</a>
+	 (<< 0.3.0.0+)
+        </dt>        <dd lang="en">Haskell monad transformer library
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-transformers-dev">libghc-transformers-dev</a>
+	 (>= 0.3.0.0)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-unordered-containers-dev">libghc-unordered-containers-dev</a>
+	 (<< 0.2.3.0+)
+        </dt>        <dd lang="en">Efficient hashing-based container types
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-unordered-containers-dev">libghc-unordered-containers-dev</a>
+	 (>= 0.2.3.0)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-vector-dev">libghc-vector-dev</a>
+	 (<< 0.10.0.1+)
+        </dt>        <dd lang="en">Efficient Arrays for Haskell
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-vector-dev">libghc-vector-dev</a>
+	 (>= 0.10.0.1)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-xhtml-dev">libghc-xhtml-dev</a>
+	 (<< 3000.2.1+)
+        </dt>        <dd lang="en">Haskell xhtml library for GHC
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-xhtml-dev">libghc-xhtml-dev</a>
+	 (>= 3000.2.1)
+        </dt>
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-zlib-dev">libghc-zlib-dev</a>
+	 (<< 0.5.4.1+)
+        </dt>        <dd lang="en">Compression and decompression in the gzip and zlib formats
+        </dd>
+      
+      </dl>
+    
+  
+    
+    
+      <dl>
+      <dt><span class="nonvisual">dep:</span>
+	<a href="/saucy/libghc-zlib-dev">libghc-zlib-dev</a>
+	 (>= 0.5.4.1)
+        </dt>
+      </dl>
+    
+  
+  </ul>
+
+  
+
+  
+
+  <ul class="ulsug">
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/saucy/haskell-platform-doc">haskell-platform-doc</a>
+	
+        </dt>        <dd lang="en">Standard Haskell libraries and tools; documentation
+        </dd>
+      
+      </dl>
+    
+  
+    <li>
+    
+      <dl>
+      <dt><span class="nonvisual">sug:</span>
+	<a href="/saucy/haskell-platform-prof">haskell-platform-prof</a>
+	
+        </dt>        <dd lang="en">Standard Haskell libraries and tools; profiling libraries
+        </dd>
+      
+      </dl>
+    
+  
+  </ul>
+
+      </div> <!-- end pdeps -->
+
+
+
+      <div id="pdownload">
+    <h2>Download haskell-platform</h2>
+    
+    <table summary="The download table links to the download of the package and a file overview. In addition it gives information about the package size and the installed size.">
+    <caption class="hidecss">Download for all available architectures</caption>
+    <tr><th>Architecture</th>
+	
+	<th>Package Size</th>
+	<th>Installed Size</th>
+	<th>Files</th>
+    </tr>
+
+<tr>
+
+<th><a href="/saucy/all/haskell-platform/download">all</a></th>
+
+
+<td class="size">3.8&nbsp;kB</td><td class="size">28.0&nbsp;kB</td>
+<td>
+
+  [<a href="/saucy/all/haskell-platform/filelist">list of files</a>]
+
+</td>
+</tr>
+
+      </table>
+
+    </div> <!-- end pdownload -->
+
+
+
+
+
+</div> <!-- content -->
+</div> <!-- wrapper -->
+
+<div id="footer">
+
+
+<!--UdmComment-->
+<p>This page is also available in the following languages:</p>
+<p class="navpara">
+
+<a href="/bg/saucy/haskell-platform" title="Bulgarian" hreflang="bg" lang="bg" rel="alternate">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; (B&#601;lgarski)</a>
+
+<a href="/de/saucy/haskell-platform" title="German" hreflang="de" lang="de" rel="alternate">Deutsch</a>
+
+<a href="/fi/saucy/haskell-platform" title="Finnish" hreflang="fi" lang="fi" rel="alternate">suomi</a>
+
+<a href="/fr/saucy/haskell-platform" title="French" hreflang="fr" lang="fr" rel="alternate">fran&ccedil;ais</a>
+
+<a href="/hu/saucy/haskell-platform" title="Hungarian" hreflang="hu" lang="hu" rel="alternate">magyar</a>
+
+<a href="/ja/saucy/haskell-platform" title="Japanese" hreflang="ja" lang="ja" rel="alternate">&#26085;&#26412;&#35486; (Nihongo)</a>
+
+<a href="/nl/saucy/haskell-platform" title="Dutch" hreflang="nl" lang="nl" rel="alternate">Nederlands</a>
+
+<a href="/pl/saucy/haskell-platform" title="Polish" hreflang="pl" lang="pl" rel="alternate">polski</a>
+
+<a href="/ru/saucy/haskell-platform" title="Russian" hreflang="ru" lang="ru" rel="alternate">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russkij)</a>
+
+<a href="/sk/saucy/haskell-platform" title="Slovak" hreflang="sk" lang="sk" rel="alternate">slovensky</a>
+
+<a href="/sv/saucy/haskell-platform" title="Swedish" hreflang="sv" lang="sv" rel="alternate">svenska</a>
+
+<a href="/uk/saucy/haskell-platform" title="Ukrainian" hreflang="uk" lang="uk" rel="alternate">&#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; (ukrajins'ka)</a>
+
+<a href="/zh-cn/saucy/haskell-platform" title="Chinese (China)" hreflang="zh-cn" lang="zh-cn" rel="alternate">&#20013;&#25991; (Zhongwen,&#31616;)</a>
+
+<a href="/zh-tw/saucy/haskell-platform" title="Chinese (Taiwan)" hreflang="zh-tw" lang="zh-tw" rel="alternate">&#20013;&#25991; (Zhongwen,&#32321;)</a>
+
+<hr>
+</p>
+<!--/UdmComment-->
+
+
+<div id="fineprint" class="bordertop">
+<div id="impressum">
+<p>To report a problem with the web site, e-mail <a href="mailto:rhonda@ubuntu.com">rhonda@ubuntu.com</a>. For other contact information, see the Ubuntu <a href="http://www.ubuntu.com/support">contact page</a>.</p>
+
+<p>
+Content Copyright &copy; 2013 <a href="http://www.canonical.com/">Canonical Ltd.</a>; See <a href="http://www.ubuntu.com/legal">license terms</a>. Ubuntu is a <a href="http://www.ubuntu.com/aboutus/trademarkpolicy">trademark</a> of Canonical Ltd.
+ <a href="/about/">Learn more about this site</a>.</p>
+
+</div> <!-- end impressum -->
+
+</div> <!-- end footer -->
+</body>
+</html>

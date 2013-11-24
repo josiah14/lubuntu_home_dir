@@ -1,0 +1,19 @@
+{
+   "browser_action": {
+      "default_icon": "images/icons/icon128.png",
+      "default_popup": "index.html",
+      "default_title": "Tab Resize split screen layouts"
+   },
+   "description": "Split Screen Layouts made easy. Automates resizing tab windows to predefined and user defined layouts.",
+   "icons": {
+      "128": "images/icons/icon128.png",
+      "16": "images/icons/icon16.png",
+      "48": "images/icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2wrR0Y7fvSCFsL8g5YZiJ+5u92/KTp67BMt2l7oX1Hyt5DLVIpSvu86STYWhIDpVO/MKRCdJ428b4v+SuC6BTOKpOOPx4NSFnV3lo3AhAtLAYQaVOOSD9FI3Thd+igMyGAe/quyhWWyo/PF2LtkZOPl+chx2Ywo9P7a5R6Az78wIDAQAB",
+   "manifest_version": 2,
+   "name": "Tab Resize - split screen layouts",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1.0"
+}

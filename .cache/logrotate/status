@@ -1,0 +1,8 @@
+logrotate state -- version 2
+"/home/josiah/.cache/upstart/lxsession.log" 2013-11-24
+"/home/josiah/.cache/upstart/upstart-file-bridge.log" 2013-11-24
+"/home/josiah/.cache/upstart/dbus.log" 2013-11-24
+"/home/josiah/.cache/upstart/im-config.log" 2013-11-24
+"/home/josiah/.cache/upstart/update-notifier-cds.log" 2013-11-24
+"/home/josiah/.cache/upstart/update-notifier-crash-_var_crash__opt_google_chrome_chrome.1000.crash.log" 2013-11-24
+"/home/josiah/.cache/upstart/update-notifier-release.log" 2013-11-24

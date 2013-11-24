@@ -1,0 +1,81 @@
+1. Download VirtualBox from the following site.
+https://www.virtualbox.org/wiki/Downloads
+
+2. Run the VirtualBox installer to install VirtualBox onto your machine.
+
+3. Install the VirtualBox Additions using the prompt when you start VirtualBox.
+
+4. Download LUbuntu from the site below (64 bit).
+http://www.lubuntu.net/
+
+5. Launch VirtualBox
+
+6. Select Machine->New
+
+7. In the dialog that appears, name the machine whatever you want, but make sure the type is Linux and the Version is Ubuntu (64 bit). 
+
+8. select at least 2 GB of RAM (recommend 4 GB)
+
+9. Select 'Create a new virtual hard drive now' and use the VDI format.
+
+10. Make the drive a fixed size drive.
+
+11. Make the HDD about 100 GB big.
+
+12. Right click on the new virtual machine and select 'Settings'.
+
+13. Under General->Advanced edit the 'Shared Clipboard' and 'Drag'n'Drop:' both to be 'Bidirectional'.
+
+14. Under System->Motherboard, change the Chipset to be ICH9. Under System->Processor, select at least 2 CPUs (4 recommended) and enable PAE/NX.
+
+15. Under Display->Video select the number of monitors you want and allocate the maximum amount of Video Memory allowed.  Also, Enable 3D Acceleration.
+
+16. Under Storage, change the type to ICH6.  Under the IDE controller, add 1 CD drive.  Make the first drive a Live CD/DVD drive and select the LUbuntu disk image for it and ensure this drive is the IDE Primary Master. The other CD/DVD drive should be the Primary Slave.
+
+17. Under Network->Adapter 1, change the 'Attached to' field to 'Bridged Adapter'.
+
+18. Under 'Shared Folders', add the root of your main disk for the host machine. Call it "HOST_C_DRIVE".
+
+19. Select OK and then Start the machine.
+
+20. When you first boot, you should be prompted for your keyboard layout.  Choose the layout you are using (normally English).
+
+21. When you get to the main install screen, select 'Install Lubuntu'. You should get a splash screen for Lubuntu 13.04
+
+22. At the dialog that appears, select 'English' and then 'Continue'.
+
+23. At the next dialog screen, select 'Download updates while installing'.  You may choose, also, to download the 3rd party Fluendo MP3 plugin if you wish. Once finished, click 'Continue'.
+
+24. At the next screen, select 'Erase disk and install Lubuntu' and 'Use LVM with the new Ubuntu installation' to make partition resizing easier if you need to do it later. Then, select 'Install Now'.
+
+25. When a map appears, select you timezone and then select 'Continue'.
+
+26. At the next screen, follow the steps after selecting 'Detect Keyboard Layout', then select 'Continue'.
+
+27. At the next screen, enter you name in the first textbox, enter a password you can remember, and make sure 'Log in automatically' is not checked.  You can enable this later if you wish. Do not encrypt the home folder.
+
+28. At this point, you can wait until the install finishes. This can take a few minutes. Once the installation is complete, shut down the VM.
+
+29. Once the VM shuts down, right click on it and bring up the settings dialog again. Go to Storage and remove the Lubuntu disk image from the CD drive so that it is empty.  You can do this by using the CD image under the Attributes section on the right.
+
+30. Select 'OK' and start the machine again to boot into Lubuntu. When you get the login screen, enter you password and log into the session.
+
+31. Once logged in, go to the VM menu at the top of the window and select Devices->Install Guest Additions.  A dialog box should appear.  Select the option to open the media in a folder.  Use the address at the top of the file manage window that appears to navigate there in an lxterm session.
+
+32. Once you have navigated to the VBOXADDITIONS disk in a terminal session, run 'sudo apt-get update'.
+
+33. run 'sudo apt-get install gcc'
+
+34. run 'sudo apt-get install make'
+
+35. run 'sudo ./VBoxLinuxAdditions.run'
+
+36. restart the VM. if the install was successful, you should now have the ability to run multiple monitors and dynamically resize the session resolution with the window resize.
+
+37. install arandr via 'sudo apt-get install arandr'.  This program can be used to manage multiple monitor sessions.
+
+38. install chomium via 'sudo apt-get install chromium-bsu'.  You can also use the debian package on the chrome website to install the normal version of chrome.
+
+39. install gvim via the command 'sudo apt-get install vim-gtk' and 'sudo apt-get install vim'
+
+40. When finished, back-up your progress by capturing a snapshot of your virtual machine's current state.

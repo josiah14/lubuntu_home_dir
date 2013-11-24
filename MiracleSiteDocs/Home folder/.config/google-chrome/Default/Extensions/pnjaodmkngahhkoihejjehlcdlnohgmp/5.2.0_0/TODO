@@ -1,0 +1,49 @@
+x = Wont do
+√ = Done
+
+√ Notifications
+√ User-defined title
+√ User-defined number of feeds to display
+√ Migrating
+√ Defragmentation
+√ Mark as read
+√ Import/export
+√ New sorter design
+√ Whitespace in feeds should be trim'd/removed
+√ Up limit to 100
+√ Confirm box on delete feeds
+√ No more "removed feed ghost bugs"
+
+x Move up/down-arrow
+x Change font size?
+
+NEXT RELEASE:
+
+Fix feed loading
+Fix database handling
+No more race conditions
+Write tests for it
+Improve performance in popup with lots of feeds
+Improve performance in options with lots of feeds
+Improve performance when loading lots of feeds
+
+NEXT NEXT RELEASE:
+
+Magic folder for many feeds
+User-defined sorting
+User defined poll time -> This enables me to move the gmail notifier to the rss reader
+                          For that though, I need to be able to set the growth of the 
+                          poll time, so it can grow exponantially or logaritmically like
+                          the gmail notifier does.
+User-defined sorting
+User-defined poll time
+
+UNDEFINED:
+Languages
+
+Tooltip on hover
+Make it bigger?
+Scrolling
+Sound
+Tests
+Better .xml feed page view

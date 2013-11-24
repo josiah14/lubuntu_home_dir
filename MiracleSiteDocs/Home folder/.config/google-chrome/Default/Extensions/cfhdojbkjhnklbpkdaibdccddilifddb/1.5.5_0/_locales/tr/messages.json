@@ -1,0 +1,177 @@
+{
+   "add": {
+      "message": "Ekle"
+   },
+   "add_domain_button": {
+      "message": "Adres Ekle"
+   },
+   "add_filter_button": {
+      "message": "Filtre Ekle"
+   },
+   "add_filters_msg": {
+      "message": "Filtre(ler) Ekle?"
+   },
+   "add_your_own_filters": {
+      "message": "Kendi Filtrelerini Ekle"
+   },
+   "apply_changes": {
+      "message": "De\u011Fi\u015Fiklikleri uygula"
+   },
+   "block_element": {
+      "message": "\u00D6\u011Feyi Engelle"
+   },
+   "cancel": {
+      "message": "Vazge\u00E7"
+   },
+   "clickhide_instructions": {
+      "message": "Bu pencere kapand\u0131\u011F\u0131nda, engelleyece\u011Finiz \u00F6geye t\u0131klay\u0131n (veya sa\u011F t\u0131klay\u0131n)."
+   },
+   "description": {
+      "message": "Chrome i\u00E7in \u00FCcretsiz reklam engelleyici: Facebook, YouTube, vb. sitelerdeki reklamlar\u0131, banner'lar\u0131 ve daha fazlas\u0131n\u0131 engeller."
+   },
+   "disable_inline": {
+      "message": "Metin reklamlar\u0131n\u0131 devre d\u0131\u015F\u0131 b\u0131rak"
+   },
+   "disabled_for_these_domains": {
+      "message": "Adblock Plus a\u015Fa\u011F\u0131daki adresleri engelledi. Adresleri hem adres \u00E7ubu\u011Fundaki Adblock ikonundan engelleyebilir veya domain'i (URL'yi de\u011Fil) kutucu\u011Fa yaz\u0131p \"Adresi ekle\" butonuna t\u0131klayabilirsin."
+   },
+   "easy_create_filter": {
+      "message": "Kolayca filtre yarat"
+   },
+   "edit_filters_raw": {
+      "message": "Filtreleri salt metin olarak d\u00FCzenle"
+   },
+   "enable_only_the": {
+      "message": "Yaln\u0131zca gereksinim duydu\u011Funuz filtreleri etkinle\u015Ftirin. \u00C7ok fazla filtre Chrome'u yava\u015Flatabilir."
+   },
+   "enabled_for_site": {
+      "message": "Bu site i\u00E7in etkin"
+   },
+   "filter_lists": {
+      "message": "S\u00FCzge\u00E7 listesi"
+   },
+   "filter_must_follow_syntax": {
+      "message": "Ekledi\u011Finiz filtre \u003Ca\u003EAdblock Plus filtre kurallar\u0131na\u003C/a\u003E uymak zorundad\u0131r."
+   },
+   "filters_acceptableAds2_label": {
+      "message": "Rahats\u0131z etmeyen baz\u0131 reklamlara izin ver"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "Ekle"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Ba\u015Fka abonelik ekle"
+   },
+   "filters_addSubscription_label": {
+      "message": "S\u00FCzge\u00E7 aboneli\u011Fi ekle"
+   },
+   "filters_readMore_label": {
+      "message": "Daha fazla bilgi al"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Sil"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Devrede"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Ba\u015Far\u0131s\u0131z, checksum e\u015Fle\u015Fmedi"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Olmad\u0131. \u0130ndirmede sorun var."
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "\u0130ndiriliyor..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Olmad\u0131. Bu d\u00FCzg\u00FCn bir s\u00FCzge\u00E7 listesi de\u011Fil."
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Olmad\u0131. Bu ge\u00E7erli bir adres de\u011Fil."
+   },
+   "filters_viewList_label": {
+      "message": "Listeye bak"
+   },
+   "firstRun_dataCorruptionWarning": {
+      "message": "Bu sayfa s\u00FCrekli g\u00F6steriliyor mu? \u003Ca\u003EBuray\u0131 T\u0131klay\u0131n!\u003C/a\u003E"
+   },
+   "firstRun_features": {
+      "message": "Adblock Plus reklamlar\u0131 engellemekten daha fazlas\u0131n\u0131 yapabilir"
+   },
+   "firstRun_title": {
+      "message": "Adblock Plusy\u00FCklendi"
+   },
+   "firstRun_toggle_off": {
+      "message": "KAPALI"
+   },
+   "firstRun_toggle_on": {
+      "message": "A\u00C7IK"
+   },
+   "found_a_bug": {
+      "message": "Hata m\u0131 buldunuz? Adblock Plus'\u0131 kendi dilinize mi \u00E7evirmek istiyorsunuz? L\u00FCtfen \u003Ca\u003Eburadan dosya isteyiniz\u003C/a\u003E."
+   },
+   "general": {
+      "message": "Genel"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Ger\u00E7ekten abonelikten \u00E7\u0131kmak istiyor musunuz?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Dosya listesi konumu ne d\u00FCzg\u00FCn bir URL ne de d\u00FCzg\u00FCn bir ada sahip."
+   },
+   "last_updated_at": {
+      "message": "Son G\u00FCncellenme: $date$ $time$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "message": "En son bug\u00FCn g\u00FCncellendi. G\u00FCncelleme saati: $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Adblock Plus"
+   },
+   "options": {
+      "message": "Adblock Plus se\u00E7enekleri"
+   },
+   "out_of_date_lists": {
+      "message": "Zaman\u0131 ge\u00E7mi\u015F listeler d\u00FCzenli olarak g\u00FCncellenmektedir."
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "Engellenen \u00F6\u011Felerin yer i\u015Faretlerini gizle"
+   },
+   "remove_button": {
+      "message": "Se\u00E7ili olan\u0131 kald\u0131r"
+   },
+   "show_block_element_menu": {
+      "message": "Sa\u011F t\u0131klad\u0131\u011F\u0131n\u0131zda \"\u00D6\u011Feyi Engelle\" se\u00E7ene\u011Fini g\u00F6ster"
+   },
+   "show_icon": {
+      "message": "\u0130konu adres \u00E7ubu\u011Funda g\u00F6ster."
+   },
+   "subscriptionSelection_location_label": {
+      "message": "S\u00FCzge\u00E7 listesi konumu:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "L\u00FCtfen listeden bir s\u00FCzge\u00E7 aboneli\u011Fi se\u00E7in:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Aboneli\u011Fin ad\u0131:"
+   },
+   "update_now": {
+      "message": "\u015Eimdi g\u00FCncelle\u015Ftir"
+   },
+   "whitelisted_domains": {
+      "message": "G\u00FCvenilir adresler"
+   }
+}

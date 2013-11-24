@@ -1,0 +1,357 @@
+@font-face {
+	font-family: 'meta-serif';
+	src: local('☺'), url('../../library/media/fonts/meta-serif-bold-700.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'journal';
+	src: local('☺'), url('../../library/media/fonts/journal-webfont.woff') format('woff');
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0 !important;
+	font: 13px/17px Helvetica Neue, arial, sans-serif;
+	color: #212121;
+	-webkit-font-smoothing: antialiased;
+	background: #191919;
+}
+
+#container {
+	height: 100%;
+}
+
+iframe { border: 0; }
+
+.main-scroll {
+	overflow: auto;
+	position: relative;
+}
+
+.tpl-popup .popup-iframe {
+	height: 100%;
+}
+
+#consume {
+	position: absolute;
+	overflow: hidden;
+	right: 0px;
+	bottom: 0;
+	top: 48px;
+	left: 330px;
+	background: #fff; 
+}
+
+#consume iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+#reader {
+	position: absolute;
+	left: 0;
+	top: 48px;
+	bottom: 0;
+	width: 330px;
+	overflow: hidden;
+	background: #f7f7f7;
+	border-radius: 4px;
+}
+
+.theme-dark #reader {
+	background: #9F9F9F;
+}
+
+header .prev,
+header .next,
+header .star-post,
+#consume .iframe-navigate a,
+.current-post-header,
+header .share,
+header .readability {
+	opacity: 0;
+}
+
+body.with-post header .prev,
+body.with-post header .next,
+body.with-post header .star-post,
+body.with-post #consume .iframe-navigate a,
+body.with-post .current-post-header,
+body.with-post header .share,
+body.with-post header .readability {
+	opacity: 1;
+}
+
+body.with-post .consume-loading,
+body.in-settings .consume-loading {
+	display: none;
+}
+
+header .popup-controls {
+	width: 327px;
+	position: absolute;
+	height: 48px;
+	left: 0;
+}
+
+	header .settings-page {
+		right: 10px;
+	}
+	
+	header .profile {
+		left: 10px;
+	}
+
+header .consume-controls {
+	position: absolute;
+	height: 48px;
+	right: 0;
+	left: 326px;
+}
+
+	header .post-related {
+		position: absolute;
+		height: 48px;
+		width: 180px;
+		left: 0;
+	}
+
+
+	header .navigate {
+		position: absolute;
+		top: 8px;
+		left: 10px;
+	}
+	
+		header .navigate .standard-button {
+			position: static;
+			float: left;
+			padding: 0 20px;
+		}
+		
+			header .prev {
+				border-top-right-radius: 0px;
+				border-bottom-right-radius: 0px;
+			}
+			
+			header .next {
+				border-top-left-radius: 0px;
+				border-bottom-left-radius: 0px;
+				border-left: none;
+			}
+		
+	header .star-post {
+		right: 10px;
+	}
+
+	header .share {
+		right: 200px;
+	}
+	
+	header .readability {
+		position: absolute;
+		right: 10px;
+		width: 183px;
+	}
+
+	.current-post-header {
+		position: absolute;
+		line-height: 30px;
+		height: 30px;
+		top: 9px;
+		left: 190px;
+		right: 203px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		cursor: pointer;
+		color: #fff;
+	}
+
+		.current-post-header .text,
+		.current-post-header .link {
+			position: absolute;
+			left: 0;
+			-webkit-transition: opacity 400ms;
+		}
+
+		.current-post-header .link {
+			opacity: 0;
+		}
+
+		.current-post-header:hover .link {
+			opacity: 1;
+		}
+
+		.current-post-header:hover .text {
+			opacity: 0;
+		}
+
+	header .readability .standard-button {
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 70px;
+		text-align: center;
+		left: 0;
+		cursor: pointer;
+	}
+
+		header .readability .full {
+			right: 0;
+			left: auto;
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+
+		header .readability .simple {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+
+.in-settings #consume {
+	left: 0;
+	right: 0;
+}	
+
+	.in-settings #reader {
+		display: none;
+	}
+
+	.in-settings header .back-to-feeds {
+		display: block;
+		opacity: 1;
+	}
+
+	.in-settings header .settings.standard-button {
+		display: none;
+	}
+	
+	.in-settings header .readability {
+		display: none;
+	}
+	
+	.in-settings header .profile {
+		display: none;
+	}
+	
+#consume .iframe-navigate a {
+	top: auto;
+	bottom: 20px;
+	left: 65px;
+}
+
+	#consume .iframe-navigate a span {
+		display: block;
+		margin-top: 7px;
+		width: 18px;
+		height: 17px;
+	}
+
+#consume .iframe-navigate .go-back {
+	left: 20px;
+}
+
+#consume .iframe-navigate .go-forward {
+	-webkit-transform: scale(-1, 1);
+}
+
+header .back-to-feeds {
+	display: none;
+	opacity: 0;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	header h1 {
+		background-image: url(../../icons/logo-white_2x.png);
+		background-size: 100px 31px;
+	}
+}
+
+/*
+	Loading message
+*/
+
+.consume-loading {
+	background: #212121 url(gfx/radial-gradient.jpg) center center no-repeat;
+	-webkit-font-smoothing: antialiased;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	font: 20px Helvetica Neue, arial, sans-serif;
+	color: #212121;
+}
+
+.consume-loading .message {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.consume-loading h2 {
+	color: #fff; /* text color */
+	font-family: "meta-serif";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	text-shadow: 0 -2px 0 rgba(18,16,11,.75); /* drop shadow */
+	margin: 0 0 5px 0;
+}
+
+.consume-loading p {
+	color: #fff; 
+	font-family: "Helvetica Neue", arial, sans-serif;
+	font-size: 16px;
+	text-shadow: 0 -1px 0 rgba(18,16,11,.75);
+	opacity: 0.3;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.consume-loading  .inset-icon {
+	display: block;
+	margin: 0 auto 10px;
+	width: 96px;
+	height: 97px;
+	background: url("../../icons/inset-icon.png") no-repeat;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	.consume-loading .inset-icon {
+		background-image: url("../../icons/inset-icon_2x.png");
+		background-size: 96px 97px;
+	}
+}
+
+/** popup overrides **/
+#reader {
+	width: 330px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.popup-iframe {
+	width: 324px;
+}
+
+.fat-top-bar .bar,
+.tpl-popup-head {
+	margin-top: 48px;
+	width: 324px;
+	right: auto;
+}
+
+.viewcontroller-animated .bar {
+	margin-top: 0;
+}
+
+.main-scroll {
+	overflow: visible;
+	height: 100%;
+	border-radius: 4px;
+}

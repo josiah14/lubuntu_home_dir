@@ -1,0 +1,841 @@
+1.1
+applications.menu
+23
+D/home/josiah/.local/share/desktop-directories
+D/etc/xdg/lubuntu/desktop-directories
+D/usr/share/Lubuntu/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/home/josiah/.local/share/applications
+D/etc/xdg/lubuntu/applications
+D/usr/share/Lubuntu/applications
+D/usr/local/share/applications
+D/usr/share/applications/screensavers
+D/usr/share/applications
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/etc/xdg/xdg-Lubuntu/menus/applications-merged
+D/etc/xdg/lubuntu/menus/applications-merged
+D/home/josiah/.config/menus/applications-merged
+F/home/josiah/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+F/etc/xdg/xdg-Lubuntu/menus/lxde-applications.menu
+F/etc/xdg/lubuntu/menus/lxde-applications.menu
+Unity;
++Applications
+Applications
+
+
+
+-1
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+4
+-file-roller.desktop
+Archive Manager
+Create and modify an archive
+file-roller
+
+12
+Archive Manager
+file-roller %U
+2
+-5
+-gucharmap.desktop
+Character Map
+Insert special characters into documents
+accessories-character-map
+
+12
+Character Map
+gucharmap
+2
+0
+-gnome-disks.desktop
+Disks
+Manage Drives and Media
+gnome-disks
+
+12
+Disks
+gnome-disks
+2
+0
+-pcmanfm.desktop
+File Manager PCManFM
+Browse the file system and manage the files
+system-file-manager
+
+12
+File Manager PCManFM
+pcmanfm %U
+2
+0
+-galculator.desktop
+Galculator
+Perform simple and scientific calculations
+galculator
+
+12
+Galculator
+galculator
+2
+0
+-gvim.desktop
+GVim
+Edit text files
+vim
+
+12
+GVim
+gvim -f %F
+2
+0
+-gpicview.desktop
+Image Viewer
+View your images easily
+gpicview
+
+12
+Image Viewer
+gpicview %f
+2
+0
+-launchy.desktop
+Launchy
+Keystroke Launcher
+launchy_icon
+
+12
+Launchy
+launchy %u
+0
+0
+-leafpad.desktop
+Leafpad
+Simple text editor
+leafpad
+
+12
+Leafpad
+leafpad %f
+0
+0
+-lxterminal.desktop
+LXTerminal
+Use the command line
+lxterminal
+
+12
+LXTerminal
+lxterminal
+0
+0
+-xpad.desktop
+Xpad
+Jot down notes for later
+xpad
+
+12
+Xpad
+xpad
+2
+0
+
++Games
+Games
+Games and amusements
+applications-games
+lxde-game.directory
+4
+-chromium-bsu.desktop
+Chromium B.S.U.
+Scrolling space shooter
+chromium-bsu
+
+12
+Chromium B.S.U.
+chromium-bsu
+0
+0
+-penguin-canfield.desktop
+Penguin Canfield
+
+penguin-pegged
+
+12
+Penguin Canfield
+/usr/games/ace-canfield
+0
+0
+-penguin-freecell.desktop
+Penguin Freecell
+
+penguin-pegged
+
+12
+Penguin Freecell
+/usr/games/ace-freecell
+0
+0
+-penguin-golf.desktop
+Penguin Golf
+
+penguin-pegged
+
+12
+Penguin Golf
+/usr/games/ace-golf
+0
+0
+-penguin-mastermind.desktop
+Penguin Mastermind
+
+penguin-pegged
+
+12
+Penguin Mastermind
+/usr/games/ace-mastermind
+0
+0
+-penguin-merlin.desktop
+Penguin Merlin
+
+penguin-pegged
+
+12
+Penguin Merlin
+/usr/games/ace-merlin
+0
+0
+-penguin-minesweeper.desktop
+Penguin Minesweeper
+
+penguin-pegged
+
+12
+Penguin Minesweeper
+/usr/games/ace-minesweeper
+0
+0
+-penguin-pegged.desktop
+Penguin Pegged
+
+penguin-pegged
+
+12
+Penguin Pegged
+/usr/games/ace-pegged
+0
+0
+-penguin-solitaire.desktop
+Penguin Solitaire
+
+penguin-pegged
+
+12
+Penguin Solitaire
+/usr/games/ace-solitaire
+0
+0
+-penguin-spider.desktop
+Penguin Spider
+
+penguin-pegged
+
+12
+Penguin Spider
+/usr/games/ace-spider
+0
+0
+-penguin-taipei.desktop
+Penguin Taipei
+
+penguin-pegged
+
+12
+Penguin Taipei
+/usr/games/ace-taipei
+0
+0
+-penguin-taipei-editor.desktop
+Penguin Taipei-Editor
+
+penguin-pegged
+
+12
+Penguin Taipei-Editor
+/usr/games/ace-taipedit
+0
+0
+-penguin-thornq.desktop
+Penguin Thornq
+
+penguin-pegged
+
+12
+Penguin Thornq
+/usr/games/ace-thornq
+0
+0
+
++Graphics
+Graphics
+Graphics applications
+applications-graphics
+lxde-graphics.directory
+4
+-evince.desktop
+Document Viewer
+View multi-page documents
+evince
+
+12
+Document Viewer
+evince %U
+2
+0
+-mtpaint.desktop
+mtPaint graphic editor
+painting program to create pixel art and manipulate digital photos
+mtpaint
+
+12
+mtPaint graphic editor
+mtpaint
+0
+0
+-simple-scan.desktop
+Simple Scan
+Scan Documents
+scanner
+
+12
+Simple Scan
+simple-scan
+2
+0
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+4
+-chromium-browser.desktop
+Chromium Web Browser
+Access the Internet
+chromium-browser
+
+12
+Chromium Web Browser
+chromium-browser %U
+2
+0
+-firefox.desktop
+Firefox Web Browser
+Browse the World Wide Web
+firefox
+
+12
+Firefox Web Browser
+firefox %u
+2
+0
+-google-chrome.desktop
+Google Chrome
+Access the Internet
+google-chrome
+
+12
+Google Chrome
+/usr/bin/google-chrome-stable %U
+0
+0
+-pidgin.desktop
+Pidgin Internet Messenger
+Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more
+pidgin
+
+12
+Pidgin Internet Messenger
+pidgin
+2
+0
+-sylpheed.desktop
+Sylpheed
+E-Mail client
+sylpheed
+
+12
+Sylpheed
+sylpheed %u
+0
+0
+-transmission-gtk.desktop
+Transmission
+Download and share files over BitTorrent
+transmission
+
+12
+Transmission BitTorrent Client
+transmission-gtk %U
+2
+0
+
++Office
+Office
+Office Applications
+applications-office
+lxde-office.directory
+4
+-abiword.desktop
+AbiWord
+Compose, edit, and view documents
+abiword
+
+12
+AbiWord
+abiword %U
+2
+0
+-evince.desktop
+Document Viewer
+View multi-page documents
+evince
+
+12
+Document Viewer
+evince %U
+2
+0
+-gnumeric.desktop
+Gnumeric
+Calculation, Analysis, and Visualization of Information
+gnumeric
+
+12
+Gnumeric Spreadsheet
+gnumeric %U
+2
+0
+
++Multimedia
+Sound & Video
+Multimedia menu
+applications-multimedia
+lxde-audio-video.directory
+4
+-audacious.desktop
+Audacious
+Listen to music
+audacious
+
+12
+Audacious
+audacious %U
+0
+0
+-gnome-mplayer.desktop
+GNOME MPlayer
+Play your media
+gnome-mplayer
+
+12
+GNOME MPlayer
+gnome-mplayer %U
+2
+0
+-guvcview.desktop
+guvcview
+A video viewer and capturer for the linux uvc driver
+/usr/share/pixmaps/guvcview/guvcview.png
+
+12
+GTK UVC video viewer
+guvcview
+2
+0
+-xfburn.desktop
+Xfburn
+CD and DVD burning application
+media-cdrom
+
+12
+Xfburn
+xfburn
+2
+0
+
+-
++Administration
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+4
+-gdebi.desktop
+GDebi Package Installer
+Install and view software packages
+gnome-mime-application-x-deb
+
+12
+GDebi Package Installer
+gdebi-gtk %f
+2
+-5
+-lubuntu-software-center.desktop
+Lubuntu Software Center
+Lets you choose from thousands of applications available for Ubuntu
+lubuntu-software-center
+
+12
+Lubuntu Software Center
+lubuntu-software-center
+2
+0
+-system-config-printer.desktop
+Printers
+Configure printers
+printer
+
+12
+Printers
+system-config-printer
+2
+-7
+-update-manager.desktop
+Software Updater
+Show and install available updates
+system-software-update
+
+12
+Software Updater
+/usr/bin/update-manager
+0
+0
+-usb-creator-gtk.desktop
+Startup Disk Creator
+Create a startup disk using a CD or disc image
+usb-creator-gtk
+
+12
+Startup Disk Creator
+usb-creator-gtk
+0
+0
+-synaptic.desktop
+Synaptic Package Manager
+Install, remove and upgrade software packages
+synaptic
+
+12
+Synaptic Package Manager
+synaptic-pkexec
+0
+-5
+-synaptic-kde.desktop
+Synaptic Package Manager
+Install, remove and upgrade software packages
+synaptic
+
+12
+Synaptic Package Manager
+synaptic
+0
+4
+-hardinfo.desktop
+System Profiler and Benchmark
+
+/usr/share/hardinfo/pixmaps/logo.png
+
+12
+System Profiler and Benchmark
+hardinfo
+2
+0
+-lxtask.desktop
+Task Manager
+Manage running processes
+utilities-system-monitor
+
+12
+Task Manager
+lxtask
+2
+0
+-terminator.desktop
+Terminator
+Multiple terminals in one window
+terminator
+
+12
+Terminator
+terminator
+2
+0
+-time.desktop
+Time and Date
+Change system time, date, and timezone
+time-admin
+
+12
+Time and Date
+time-admin
+2
+0
+-users.desktop
+Users and Groups
+Add or remove users and groups
+config-users
+
+12
+Users and Groups
+users-admin
+2
+0
+-debian-uxterm.desktop
+UXTerm
+standard terminal emulator for the X window system
+xterm-color_48x48
+
+12
+UXTerm
+uxterm
+0
+0
+-debian-xterm.desktop
+XTerm
+standard terminal emulator for the X window system
+xterm-color_48x48
+
+12
+XTerm
+xterm
+0
+0
+
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+4
+-arandr.desktop
+ARandR
+
+display
+
+12
+ARandR
+arandr
+2
+0
+-blueman-manager.desktop
+Bluetooth Manager
+Blueman Bluetooth Manager
+blueman
+
+12
+Bluetooth Manager
+blueman-manager
+2
+0
+-lxappearance.desktop
+Customize Look and Feel
+Customizes look and feel of your desktop and applications
+preferences-desktop-theme
+
+12
+Customize Look and Feel
+lxappearance
+2
+-11
+-lxsession-default-apps.desktop
+Default applications for LXSession
+Change the default applications on LXDE
+xfwm4
+
+12
+Default applications for LXSession
+lxsession-default-apps
+0
+-15
+-pcmanfm-desktop-pref.desktop
+Desktop Preferences
+Change desktop wallpapers and behavior of desktop manager
+user-desktop
+
+12
+Desktop Preferences
+pcmanfm --desktop-pref
+2
+-15
+-lxsession-edit.desktop
+Desktop Session Settings
+Manage applications loaded in desktop session
+xfwm4
+
+12
+Desktop Session Settings
+lxsession-edit
+0
+-15
+-gnome-disks.desktop
+Disks
+Manage Drives and Media
+gnome-disks
+
+12
+Disks
+gnome-disks
+2
+0
+-im-config.desktop
+Input Method
+Set Keyboard Input Method
+input-keyboard
+
+12
+Input Method
+im-config
+0
+0
+-lxinput.desktop
+Keyboard and Mouse
+Configure keyboard, mouse, and other input devices
+input-keyboard
+
+12
+Keyboard and Mouse
+lxinput
+2
+1
+-ibus-setup.desktop
+Keyboard Input Methods
+Adjust methods for keyboard input.
+ibus-setup
+
+12
+Keyboard Input Methods
+ibus-setup
+2
+-35
+-language-selector.desktop
+Language Support
+Configure multiple and native language support on your system
+preferences-desktop-locale
+
+12
+Language Support
+/usr/bin/gnome-language-selector
+0
+-5
+-lxkeymap.desktop
+Lxkeymap
+Lxkeymap application
+/usr/share/lxkeymap/media/icon.png
+
+12
+Lxkeymap
+lxkeymap
+0
+0
+-lxrandr.desktop
+Monitor Settings
+Change screen resolution and configure external monitors
+display
+
+12
+Monitor Settings
+lxrandr
+0
+0
+-nm-connection-editor.desktop
+Network Connections
+Manage and change your network connection settings
+preferences-system-network
+
+12
+Network Connections
+nm-connection-editor
+2
+-5
+-xfce4-notifyd-config.desktop
+Notifications
+Customize how notifications appear on your screen
+xfce4-notifyd
+
+12
+Notifications
+xfce4-notifyd-config
+2
+8
+-obconf.desktop
+Openbox Configuration Manager
+Tweak settings for Openbox
+obconf
+
+12
+Openbox Configuration Manager
+obconf %f
+2
+0
+-xfce4-power-manager-settings.desktop
+Power Manager
+Settings for the Xfce Power Manager
+xfpm-ac-adapter
+
+12
+Power Manager
+xfce4-power-manager-settings
+2
+-39
+-libfm-pref-apps.desktop
+Preferred Applications
+
+preferences-desktop
+
+12
+Preferred Applications
+libfm-pref-apps
+2
+-15
+-xscreensaver-properties.desktop
+Screensaver
+Change screensaver properties
+xscreensaver
+
+12
+Screensaver
+xscreensaver-demo
+0
+0
+-software-properties-gnome.desktop
+Software & Updates
+Configure the sources for installable software and updates
+software-properties
+
+12
+Software & Updates
+software-properties-gtk
+0
+2
+-software-properties-gtk.desktop
+Software & Updates
+Configure the sources for installable software and updates
+software-properties
+
+12
+Software & Updates
+software-properties-gtk
+0
+-3
+
+

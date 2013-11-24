@@ -1,0 +1,55 @@
+{
+   "background": {
+      "page": "main.html"
+   },
+   "background_page": "reader/main.html",
+   "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "content/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   }, {
+      "js": [ "content/googlereader.js" ],
+      "matches": [ "https://accounts.google.com/o/oauth2/approval*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "content/redirect.js" ],
+      "matches": [ "http://go.feeder.co/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "content/feeder_api.js" ],
+      "matches": [ "http://feeder.co/*", "http://*.feeder.co/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Get a simple overview of your RSS and Atom feeds in the toolbar",
+   "icons": {
+      "128": "icons/icon128x128.png",
+      "16": "icons/icon16x16.png",
+      "48": "icons/icon48x48.png"
+   },
+   "intents": {
+      "http://webintents.org/subscribe": [ {
+         "disposition": "window",
+         "href": "/options/options.html?with_subscribe_intent=subscribe",
+         "title": "Subscribe to feed using Feeder",
+         "type": [ "application/rss+xml", "application/atom+xml" ]
+      } ],
+      "http://webintents.org/view": [ {
+         "disposition": "window",
+         "href": "/options/options.html?with_intent=feed",
+         "title": "Subscribe to feed using Feeder",
+         "type": [ "application/rss+xml", "application/atom+xml" ]
+      } ]
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDSk70DzQ0XRPEINteLpZyjPmFVPgbPePTiy3z2VEWHy8e1hFbOdP32SuiWcshHuZHvCvU3oZdZHJ9h3zKBw100ZzOcIPa8UHxi8klYfwf2QJu+yAYIAm36IlRin8JnwCWIoE7ZcFfLVyXci6LmnIepS69x+asjyPH7zEjmNfcYwIDAQAB",
+   "manifest_version": 2,
+   "name": "RSS Feed Reader",
+   "options_page": "options/options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "chrome://favicon/", "storage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.2.2",
+   "web_accessible_resources": [ "icons/icon48x48.png" ]
+}

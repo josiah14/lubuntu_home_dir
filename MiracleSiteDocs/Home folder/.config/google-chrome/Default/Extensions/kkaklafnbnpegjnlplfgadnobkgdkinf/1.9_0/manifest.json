@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.ebhasin.com/apps/UnitConvertor/index.html"
+      },
+      "urls": [ "http://www.ebhasin.com/apps/UnitConvertor/index.html" ]
+   },
+   "description": "A must have utility that helps you convert between different units of measurement.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMwIWDV0WX5T1+5tfaHzpsIS9Cwtv6gKlyw5e7eJanJHZniLV9GO1iMJbdEAoKsGIzWyVR6YuC0I1vOeimOi+H9kkQ7fJSbsJftIjvACyYhQ1NcVZE1AS3+Q9yLUoJKXRttJL0Bh3MuWsHxJlrzuXLL1inUP6mELp+B13A0ToSeQIDAQAB",
+   "manifest_version": 2,
+   "name": "Unit Convertor",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.9"
+}

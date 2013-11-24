@@ -1,0 +1,8 @@
+[profiles]
+    [[default]]
+	use_theme_colors=false
+	background_type=transparent
+	background_darkness=0.8
+	font=Monaco 11
+	foreground_color='#DAECFF'
+	scrollback_infinite=true

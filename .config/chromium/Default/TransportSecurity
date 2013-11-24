@@ -1,0 +1,11 @@
+{
+   "mPA/INyvbBufIejotw/nxkqXMSZ6f1+GY8zDuTq0MfE=": {
+      "created": 1385320430.029717,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1401390830.029717,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "static_spki_hashes": [  ],
+      "sts_include_subdomains": false
+   }
+}

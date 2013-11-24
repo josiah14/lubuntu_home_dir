@@ -1,0 +1,201 @@
+{
+   "add": {
+      "message": "Prida\u0165"
+   },
+   "add_domain_button": {
+      "message": "Prida\u0165 dom\u00E9nu"
+   },
+   "add_filter_button": {
+      "message": "Prida\u0165 filter"
+   },
+   "add_filters_msg": {
+      "message": "Prida\u0165 filtre?"
+   },
+   "add_your_own_filters": {
+      "message": "Prida\u0165 vlastn\u00E9 filtre"
+   },
+   "apply_changes": {
+      "message": "Pou\u017Ei\u0165 zmeny"
+   },
+   "block_element": {
+      "message": "Blokova\u0165 prvok"
+   },
+   "cancel": {
+      "message": "Zru\u0161i\u0165"
+   },
+   "clickhide_instructions": {
+      "message": "Po zatvoren\u00ED tohto okna, kliknite (alebo kliknite prav\u00FDm tla\u010Didlom my\u0161i) na prvok na str\u00E1nke."
+   },
+   "description": {
+      "message": "Roz\u0161\u00EDrenie pre Chrome ktor\u00E9 blokuje reklamy: Blokuje reklamy na YouTube, Facebook reklamy, bannery a ove\u013Ea viac."
+   },
+   "disable_inline": {
+      "message": "Vypnutie vn\u00FAtroriadkov\u00FDch textov\u00FDch rekl\u00E1m"
+   },
+   "disabled_for_these_domains": {
+      "message": "Adblock Plus je vypnut\u00FD v dom\u00E9nach uveden\u00FDch ni\u017E\u0161ie. M\u00F4\u017Eete prida\u0165 dom\u00E9nu bu\u010F cez ikonu Adblock Plus v paneli s adresou alebo zadan\u00EDm dom\u00E9ny (nie URL) do po\u013Ea a kliknut\u00EDm na tla\u010Didlo \"Prida\u0165 dom\u00E9nu\"."
+   },
+   "easy_create_filter": {
+      "message": "Jednoduch\u00E9 vytvorenie filtra"
+   },
+   "edit_filters_raw": {
+      "message": "Upravi\u0165 filtre ako surov\u00FD text"
+   },
+   "enable_only_the": {
+      "message": "Povolte len zoznamy filtrov, ktor\u00E9 potrebujete. Pr\u00EDli\u0161 ve\u013Ea m\u00F4\u017Ee sp\u00F4sobi\u0165, \u017Ee Chrome nebude nereagova\u0165."
+   },
+   "enabled_for_site": {
+      "message": "Povolen\u00E9 pre t\u00FAto str\u00E1nku"
+   },
+   "filter_lists": {
+      "message": "Zoznamy filtrov"
+   },
+   "filter_must_follow_syntax": {
+      "message": "V\u00E1\u0161 filter mus\u00ED sp\u013A\u0148a\u0165 \u003Ca\u003E syntax filtrov Adblocku Plus\u003C/a\u003E."
+   },
+   "filters_acceptableAds2_label": {
+      "message": "Povoli\u0165 niektor\u00E9 nevtierav\u00E9 reklamy"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "Prida\u0165"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Prida\u0165 in\u00E9 odoberania"
+   },
+   "filters_addSubscription_label": {
+      "message": "Prida\u0165 povolenie filtra"
+   },
+   "filters_readMore_label": {
+      "message": "Zobrazi\u0165 viac"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Zmaza\u0165"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Zapnut\u00E9"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Zlyhalo, chybn\u00E9 prisp\u00F4sobenie kontroln\u00E9ho s\u00FA\u010Dtu"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Zlyhanie, s\u0165ahovanie ne\u00FAspe\u0161n\u00E9"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Preberanie..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Zlyhanie, neplatn\u00FD zoznam filtrov"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Zlyhanie, neplatn\u00E1 adresa"
+   },
+   "filters_viewList_label": {
+      "message": "Zobrazi\u0165 zoznam"
+   },
+   "firstRun_acceptableAdsExplanation": {
+      "message": "\u003Cstrong\u003EAdblock Plus bude v\u017Edy blokova\u0165 reklamy.\u003C/strong\u003E Napriek tomu chceme podpori\u0165 webov\u00E9 str\u00E1nky pou\u017E\u00EDvaj\u00FAce jednoduch\u00FA a nen\u00E1padn\u00FA reklamu. Preto sme zaviedli \u003Ca\u003Epr\u00EDsne pravidl\u00E1\u003C/a\u003E na identifikovanie prijate\u013Enej reklamy, tieto reklamy bud\u00FA \u0161tandardne povolen\u00E9 . V\u017Edy ich v\u0161ak m\u00F4\u017Eete \u003Ca\u003Evypn\u00FA\u0165\u003C/a\u003E a t\u00FDm zablokova\u0165 v\u0161etky reklamy."
+   },
+   "firstRun_dataCorruptionWarning": {
+      "message": "Chcete st\u00E1le vidie\u0165 t\u00FAto str\u00E1nku? \u003Ca\u003EKlikni tu!\u003C/a\u003E"
+   },
+   "firstRun_feature_malware": {
+      "message": "Blokovanie malv\u00E9ru"
+   },
+   "firstRun_feature_malware_description": {
+      "message": "Blokova\u0165 dom\u00E9ny, ktor\u00E9 s\u00FA zn\u00E1me napadnut\u00FDm malv\u00E9rom, aby bolo preh\u013Ead\u00E1vanie internetu bezpe\u010Dnej\u0161ie."
+   },
+   "firstRun_feature_social": {
+      "message": "Odstr\u00E1nenie tla\u010Didiel soci\u00E1lnych m\u00E9di\u00ED"
+   },
+   "firstRun_feature_social_description": {
+      "message": "Odstr\u00E1nenie tla\u010Didiel soci\u00E1lnych m\u00E9di\u00ED ako napr\u00EDklad tla\u010Didlo Facebook Like, ktor\u00E9 sleduje va\u0161e prehliadanie."
+   },
+   "firstRun_feature_tracking": {
+      "message": "Zak\u00E1za\u0165 sledovanie"
+   },
+   "firstRun_feature_tracking_description": {
+      "message": "Stovky reklamn\u00FDch spolo\u010Dnost\u00ED sleduj\u00FA ka\u017Ed\u00FD v\u00E1\u0161 pohyb, av\u0161ak \u013Eahko m\u00F4\u017Eete vypn\u00FA\u0165 v\u0161etko sledovanie, aby ste mohli surfova\u0165 anonymne."
+   },
+   "firstRun_features": {
+      "message": "Adblock Plus m\u00F4\u017Ee spravi\u0165 viac ako len blokova\u0165 reklamy"
+   },
+   "firstRun_share": {
+      "message": "Mysl\u00EDte si, \u017Ee Adblock Plus stoj\u00ED za zdie\u013Eanie?"
+   },
+   "firstRun_title": {
+      "message": "Adblock Plus bol nain\u0161talovan\u00FD"
+   },
+   "firstRun_toggle_off": {
+      "message": "OFF"
+   },
+   "firstRun_toggle_on": {
+      "message": "ON"
+   },
+   "found_a_bug": {
+      "message": "N\u00E1jden\u00E9 chyba? Chcete prelo\u017Ei\u0165 Adblock Plus do v\u00E1\u0161ho jazyka? Pros\u00EDm \u003Ca\u003E zadajte \u017Eiados\u0165 tu\u003C/a\u003E."
+   },
+   "general": {
+      "message": "V\u0161eobecn\u00E9"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Naozaj si \u017Eel\u00E1te odstr\u00E1ni\u0165 toto povolenie?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Umiestnenie zoznamu filtrov nem\u00E1 platn\u00FA URL alebo platn\u00FD n\u00E1zov s\u00FAboru."
+   },
+   "last_updated_at": {
+      "message": "Posledn\u00E1 aktualiz\u00E1cia nastala o $time$, $date$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "message": "Posledn\u00E1 aktualiz\u00E1cia nastala dnes o $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Adblock Plus"
+   },
+   "options": {
+      "message": "Adblock Plus nastavenia"
+   },
+   "out_of_date_lists": {
+      "message": "Zastaran\u00E9 zoznamy s\u00FA pravidelne aktualizovan\u00E9."
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "Skry\u0165 symboly blokovan\u00FDch prvkov"
+   },
+   "remove_button": {
+      "message": "Odstr\u00E1ni\u0165 vybrat\u00E9"
+   },
+   "show_block_element_menu": {
+      "message": "Zobrazi\u0165 zablokovan\u00FD prvok kliknut\u00EDm na polo\u017Eku prav\u00FDm tla\u010Didlom"
+   },
+   "show_icon": {
+      "message": "Zobrazi\u0165 ikonu v paneli s adresou"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Umiestnenie zoznamu filtrov:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Pros\u00EDm, zvo\u013Ete odber filtra zo zoznamu:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "N\u00E1zov povolenia:"
+   },
+   "update_now": {
+      "message": "Aktualizova\u0165 teraz"
+   },
+   "whitelisted_domains": {
+      "message": "Dom\u00E9ny pridan\u00E9 do povolen\u00E9ho zoznamu"
+   }
+}

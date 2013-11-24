@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>feeder</title>
+<div style="display:none" id="__is-what" data-type="app"></div>
+
+<!-- MAIN BEGIN -->
+
+<div style="display:none" id="ui">
+
+<!-- Popup -->
+
+<template id="popup#head">
+	<div id="link-queue">
+		Open <span class="num">10</span> post<span class="one">s</span>
+		<a href="#" class="close">×</a>
+	</div>
+	<div id="notifications">
+		<div></div>
+		<span class="close">×</span>
+	</div>
+</template>
+
+<!-- Main -->
+	
+<template id="screen#main" class="screen-with-topbar">
+	<div class="screen-container">
+		<div class="screen-main-content">
+			<tpl from="bar#main"></tpl>
+			<tpl from="feed-list" class="loading-screen" data-loader></tpl>
+		</div>
+	</div>
+</template>
+
+<template id="feed-list">
+	<tpl from="list-item#feed" class="list-item" many="feeds"></tpl>
+</template>
+
+<template id="list-item#feed">
+	<div class="item">
+		<div class="flerp"></div>
+		<div class="cover"></div>
+		<div class="item-move"><span class="icons draggable"></div>
+		<div class="item-icon"><img data="favicon:src-on-load" /></div>
+		<div class="item-title" data="title:text">
+			<span data="title:text"></span> 
+			<span class="item-url" data="link:text"></span>
+		</div>
+		<div class="item-remove"><span class="icons cross"></div>
+		<tpl from="count-group"></tpl>
+		<div class="item-edit-button action-button semi">Edit</div>
+	</div>
+	<tpl from="drawer-menu#feed" class="tpl-drawer-menu"></tpl>
+</template>
+
+<template id="count-group">
+	<div class="mark-as-read">✔</div>
+	<div class="count" data="count:text"></div>
+</template>
+
+<template id="follow-button">
+	<div class="following" data="following:data-following" data-following=""></div>
+	<div class="follow">+ Follow</div>
+	<div class="unfollow">✔ Following</div>
+</template>
+
+<template id="drawer-menu#feed">
+		<div class="drawer-button edit-feed"><div class="table-container"><span class="icons wrench"></span> Edit</div></div>
+		<div class="drawer-button open-all-unread"><div class="table-container"><span class="icons forward-arrow"></span> Open all unread</div></div>
+
+	<div class="drawer-button cancel" title="Cancel"><div class="table-container"><span class="icons cross"></span></div></div>
+</template>
+
+<template id="bar#top">
+	<div class="bar top">
+		<div class="bottom-cover"></div>
+		
+		<div class="back"><span class="icons left-arrow"></span></div>
+		<div class="title">
+			<img data="favicon:src" />
+			<span data="title:text"></span>
+		</div>
+		<tpl from="count-group"></tpl>
+	</div>
+</template>
+
+<template id="bar#main">
+	<div class="bar main">
+		<div class="bottom-cover"></div>
+		<div class="button settings tooltip-button" title="Settings">
+			<span class="icons cog"></span>
+		</div>
+		<div class="button-group" id="filter-settings">
+			<div class="option feeder-online"><span data="num_unread:text">pro</span></div>
+			<div class="option all current" title="Show all"><span class="icons list"></span></div>
+			<div class="option starred" title="Show starred"><span class="icons star"></span></div>
+			<div class="option unread" title="Show unread"><span data="num_unread:text">...</span></div>
+		</div>
+		<div class="button add" title="Add feed"><span class="icons plus"></span><span class="bubble" data="num_feeds:text"></span></div> 
+	</div>
+</template>
+	
+<template id="bar#organize">
+	<div class="bottom-cover"></div>
+	<div class="bar top">
+		<div class="button done" title="Done"><span class="icons checkmark"></span></div>
+		<div class="button add-button" title="Add folder"><span class="icons plus"></span></div>
+	</div>
+</template>
+
+<template id="screen#no-feeds" class="screen-with-topbar">
+	<tpl from="bar#settings"></tpl>
+	<!--<div class="heading">Recommended feeds</div> -->
+	<tpl from="feed-list"></tpl>
+	<div class="heading">Import feeds</div>
+	<div class="import-from">
+		<div class="not-online action-button get-feeder-pro">From feeder <span class="pro-badge">pro</span></div>
+		<div class="link-text open-sync-settings">From .opml</div>
+	</div>
+	
+	<div class="arrow-text right-up add-feeds-here">Click here to add feeds</div>
+</template>
+
+<template id="screen#no-unread">
+	<div class="screen-wrapper">
+		<span class="big-icons check"></span>
+		<div class="header">You have no unread posts</div>
+		<div class="subtext">Now, get back to work</div>
+	</div>
+</template>
+
+<template id="screen#no-posts">
+	<div class="header">No posts here yet...</div>
+	<div class="subtext">Chirp chirp, chirp chirp</div>
+</template>
+
+<template id="screen#no-starred">
+	<div class="screen-wrapper">
+		<span class="big-icons star"></span>
+		<div class="header">You have no starred posts</div>
+		<div class="subtext">Star posts to save for later</div>
+	
+		<div class="help-button"><div class="action-button start-tutorial">How do I star posts?</div></div>
+		<div class="tutorial hidden">
+			<tpl from="post-list"></tpl>
+			<div class="tutorial-arrows">
+				<div class="arrow-text right-up click-to-open hidden">Click to open</div>
+				<div class="arrow-text left-up click-to-star hidden">Click to star post</div>
+			</div>
+			<div class="help-button"><div class="action-button end-tutorial hidden">Thanks, got it!</div></div>
+		</div>	
+	</div>
+</template>
+
+<template id="screen#welcome">
+	<div class="welcome-container">
+		<div class="cover"></div>
+		
+		<div class="main-header">Welcome to feeder</div>
+		<div class="main-subtext">The easiest feed reader</div>
+	
+		<div class="subtext">Now, let's get you started on some feeds</div>
+		<div class="help-button"><div class="action-button big good start-using-feeder">Start using feeder</div></div>
+	</div>
+</template>
+	
+<!-- Folder -->
+	
+<template id="screen#folder" class="screen-with-topbar">
+	<tpl from="bar#top"></tpl>
+	<tpl from="feed-list" class="loading-screen" data-loader></tpl>
+</template>
+	
+<!-- Posts -->
+	
+<template id="screen#posts" class="screen-with-topbar">
+	<tpl from="bar#top"></tpl>
+	<tpl from="post-list" class="loading-screen" data-loader></tpl>
+</template>
+
+<template id="post-list">
+	<div class="x-more-available" style="display:none"><span class="num"></span> new post<span class="multiple">s</span>. Click to load 'em</div>
+	<tpl from="list-item#post" class="list-item" many="posts"></tpl>
+	<div class="load-more" style="display:none"><strong>+</strong> Load more</div>
+</template>
+
+<template id="list-item#post">
+	<div class="item" data="starred:data-is-starred">
+		<div class="cover"></div>
+		<div class="flerp"></div>
+		<div class="item-starred"><span class="icons gold-star"></div>
+		<div class="item-favicon"><img data="favicon:src" /></div>
+		<div class="item-title" data="title:text"></div>
+		<tpl from="count-group"></tpl>
+	</div>
+	<tpl from="drawer-menu#post" class="tpl-drawer-menu"></tpl>
+</template>
+
+<template id="drawer-menu#post">
+	<div class="drawer-button star-post"><div class="table-container"><span class="icons star"></span> Star post</div></div>
+	<div class="drawer-button mark-as-read"><div class="table-container"><span class="icons checked-badge"></span> Mark as read</div></div>
+	<div class="drawer-button mark-as-unread"><div class="table-container"><span class="icons checked-badge"></span> Mark as unread</div></div>
+	<div class="drawer-button cancel" title="Cancel"><div class="table-container"><span class="icons cross"></span></div></div>
+</template>
+
+<template id="bar#navigate">
+	<div class="bar top">
+		<div class="bottom-cover"></div>
+		
+		<div class="back"><span class="icons left-arrow"></span></div>
+		<div class="title">
+			<img data="favicon:src" />
+			<span data="title:text"></span>
+		</div>
+	</div>
+</template>
+	
+<!-- Add feed -->
+	
+<template id="screen#add" class="screen-with-topbar">
+	<tpl from="bar#settings"></tpl>
+	<tpl from="box#add-from-page"></tpl>
+	<tpl from="box#add-feeds"></tpl>
+	<tpl from="box#add-folder"></tpl>
+</template>
+	
+<template id="bar#settings">
+	<div class="bar top bar-settings">
+		<div class="bottom-cover"></div>
+		
+		<div class="button escape"><span class="icons cross"></span></div>
+		<div class="title"><span data="title:text"></span></div>
+		<div class="button done"><span class="icons checkmark"></span></div>
+	</div>
+</template>
+
+<template id="bar#settings-with-support-us">
+	<div class="bar top bar-settings">
+		<div class="bottom-cover"></div>
+		
+		<div class="support-us-button get-feeder-pro"><span></span>Get feeder pro</div>
+		<div class="title"><span data="title:text"></span></div>
+		<div class="button done"><span class="icons checkmark"></span></div>
+	</div>
+</template>
+	
+<template id="box#add-feeds">
+	<div class="heading">Add feed</div>
+	<form class="add-feed-form">
+		<label class="full">
+			<span class="description">Enter a site or feed url to search for feeds</span>
+			<span class="empty-search-result">No feeds found</span>
+			<input type="text" name="url" class="url" />
+		</label>
+		<div class="submit-container">
+			<input type="submit" value="Search" />
+		</div>
+		<div class="nested-list search-results">
+			<div class="item" many="search-results">
+				<tpl from="nested-list-results#feed"></tpl>
+			</div>
+		</div>
+	</form>
+</template>
+
+<template id="box#add-folder">
+	<div class="heading">Add folder</div>
+	<form class="add-folder-form">
+		<label class="full">
+			<span class="description">Enter folder name</span>
+			<input type="text" name="folder-name" class="url" />
+		</label>
+		<div class="submit-container">
+			<input type="submit" value="Add" />
+		</div>
+	</form>
+</template>
+	
+<template id="nested-list-results#feed">
+	<label>
+		<span class="item-title" data="title:html"></span>
+		<span class="item-subtitle" data="link:text"></span>
+		<tpl pui="FollowButton" key="is-following" from="follow-button"></tpl>
+	</label>
+</template>
+	
+<template id="box#add-from-page">
+	<div class="heading">Feeds on current page</div>
+	<form class="add-from-page-form">
+		<div class="nested-list">
+			<div class="item" many="feeds-on-page">
+				<tpl from="nested-list-results#feed"></tpl>
+			</div>
+		</div>
+	</form>		
+</template>
+	
+<!-- Global settings -->
+<template id="screen#settings" class="screen-with-topbar">
+	<tpl from="bar#settings-with-support-us"></tpl>
+	<tpl from="box#global-settings"></tpl>
+</template>
+	
+<template id="box#global-settings">
+	<div class="loader-cover"></div>
+		
+	<tpl from="box#general"></tpl>
+	<tpl from="box#switch-theme"></tpl>
+	
+	<tpl from="box#accounts"></tpl>
+	<div class="change-update-interval">
+		<div class="heading">Feed update interval (minutes)</div>
+		<div class="no-pro">
+			<tpl from="box#update-interval"></tpl>
+		</div>
+		<div class="pro-user settings-info">
+			<p>Our servers check for new post at least every 10 minutes.</p>
+		</div>
+	</div>
+	<div class="heading">Posts to display</div>
+	<tpl from="box#posts-display"></tpl>
+	<div class="no-pro">
+		<div class="heading">Misc.</div>
+		<div class="setting">
+			<span class="label">Use Skimlinks <a class="about-tip" target="_blank" href="#"><sup>(what is it?)</sup></a></span>
+			<tpl from="yes-no" pui="YesNo" key="use-skimlinks" class="setter"></tpl>
+			<div class="clear"></div>
+			<span class="please-donate setting-explanation get-feeder-pro no-pro">If not, please get feeder pro</span>
+		</div>
+	</div>
+	<tpl from="box#open-externalsettings"></tpl>
+	<tpl from="box#social-feeder"></tpl>
+</template>
+	
+<template id="box#general">
+	<div class="heading">General</div>
+	<div class="setting">
+		<div class="label global-notifications">Global notifications</div>
+		<tpl from="yes-no" pui="YesNo" key="global-notifications" class="setter"></tpl>
+	</div>
+	<div class="setting">
+		<span class="label">Open posts in new tab</span>
+		<tpl from="yes-no" pui="YesNo" key="open-posts-in-new-tab" class="setter"></tpl>
+	</div>
+	<div class="setting">
+		<span class="label">Show unread count in badge</span>
+		<tpl from="yes-no" pui="YesNo" key="show-unread-count-in-badge" class="setter"></tpl>
+	</div>
+</template>
+	
+<template id="box#switch-theme">
+	<div class="heading">Switch theme</div>
+	<div class="settings-content">
+		<tpl from="theme#item" many="themes"></tpl>
+	</div>
+</template>
+
+<template id="theme#item">
+	<div class="theme">
+		<img data="image:src" src="" />
+		<label><input type="radio" name="active-theme"> <span data="name:text"></span></label>
+	</div>	
+</template>
+	
+<template id="box#accounts">
+	<div class="heading">Accounts</div>
+	<div class="action-button connect-acc connect-google-reader"><span class="speccon icons-google-reader"></span> Connect <strong>Google Reader</strong></div>
+	<div class="connected-to connected-to-google-reader">
+		<span class="speccon icons-google-reader"></span>
+		<span class="connected-google-reader-username connected-username">Connected as <span data="google-reader-username:text"></span></span>
+		<span class="google-reader-email connected-email" data="google-reader-email:text"></span>
+		<span class="remove-subscription"><span class="icons cross"></span></span>
+	</div>
+	<div class="action-button connect-acc connect-feeder-pro get-feeder-pro"><span class="speccon icons-feeder-acc"></span> Connect <strong>feeder <span class="pro-badge">Pro</span></strong></div>
+	<div class="connected-to connected-to-feeder-pro">
+		<span class="speccon icons-feeder-acc"></span>
+		<span class="connected-feeder-pro-username connected-username">Connected as:<span></span></span>
+		<span class="feeder-pro-email connected-email" data="feeder-pro-email:text"></span>
+		<span class="remove-subscription"><span class="icons cross"></span></span>
+	</div>
+</template>
+	
+<template id="box#update-interval">
+	<tpl from="slider" pui="Slider" key="update-interval"></tpl>
+	<ul class="slider-values">
+		<li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li>
+		<li>9</li><li>10</li><li>12</li><li>15</li><li>20</li><li>25</li><li>30</li><li>60</li>
+	</ul>
+</template>
+	
+<template id="box#posts-display">
+	<tpl from="slider" pui="Slider" key="posts-display"></tpl>
+	<ul class="slider-values">
+		<li>5</li><li>10</li><li>15</li><li>20</li><li>25</li><li>30</li><li>35</li><li>40</li>
+		<li>45</li><li>50</li><li>55</li><li>60</li><li>65</li><li>70</li><li>75</li><li>80</li>
+	</ul>
+</template>
+
+<template id="box#open-externalsettings">
+	<div class="heading">Open external settings</div>
+	<div id="open-external" class="action-button">
+		Open external settings
+	</div>
+</template>
+
+<template id="box#social-feeder">
+	<div class="heading">
+		Follow Feeder
+		<tpl from="follow-button" pui="FollowButton" key="follow-feeder"></tpl>
+	</div>
+	<div id="social-bar">
+		<a target="_blank" href="http://www.facebook.com/feederco" id="facebook"><span class="social-icon facebook"></span></a>
+		<a target="_blank" href="http://www.twitter.com/feederco" id="twitter"><span class="social-icon twitter"></span></a>
+	</div>
+</template>
+	
+<template id="yes-no">
+	<div class="yes-no-wrapper">
+		<div class="yes-no">
+			<span class="yes">On</span>
+			<span class="dong"></span>
+			<span class="no">Off</span>
+			<span class="shadow"></span>
+		</div>
+	</div>
+</template>
+	
+<template id="slider">
+	<div class="slider">
+		<div class="current">
+			<div class="handle"></div>
+		</div>
+	</div>
+</template>
+	
+<template id="checkbox">
+	<div class="check"><span class="icons white-check"></div>
+</template>
+	
+<!-- Select feeds to sync -->
+	
+<template id="screen#feeds-sync-select" class="screen-with-topbar">
+	<tpl from="bar#settings"></tpl>
+	<form class="sync-loading loading">
+		<div class="loader-cover"></div>
+		<p class="text">The following feeds were not found on Google Reader, and were removed:</p>
+		<div class="nested-list bad-feeds">
+			<div class="item" many="bad-feeds">
+				<tpl from="nested-list-results#feed"></tpl>
+			</div>
+		</div>
+		<p class="text"><small>Sorry about that...</small></p>
+	</form>
+</template>
+
+<!-- Remove sync is loading, show which feeds couldn't be retrieved -->
+
+<template id="screen#remove-sync" class="screen-with-topbar">
+	<tpl from="bar#settings"></tpl>
+	<form class="remove-sync loading">
+		<div class="loader-cover"></div>
+		<p style="margin-bottom: 10px;font-weight:bold">Google Reader has retired. With that we've stopped syncing your feeds and unread counts there.</p>
+		<p style="margin-bottom: 10px">In a short while we will release some alternative integrations that you can use. If you have any input on what that should be please contact me at: erik@feeder.co</p>
+		<p style="margin-bottom: 10px"><a class="info-link" href='http://blog.feeder.co/post/54280867264/google-reader-is-retiring-here-is-what-you-should-do'>Read more here</a></p>
+		<p class="with-bad-feeds text">The following feeds could not be recovered, and were removed:</p>
+		<div class="nested-list with-bad-feeds bad-feeds">
+			<div class="item" many="bad-feeds">
+				<tpl from="nested-list-results#feed"></tpl>
+			</div>
+		</div>
+		<p class="text with-bad-feeds"><small>Sorry about that...</small></p>
+	</form>
+</template>
+	
+<!-- Feed specific settings -->
+<template id="screen#settings-feed" class="screen-with-topbar">
+	<tpl from="bar#settings"></tpl>
+	<tpl from="box#settings-feed"></tpl>
+</template>
+	
+<template id="box#settings-feed">
+	<div class="heading">Settings</div>
+	<form class="feed-settings-form">
+		<label class="inline">
+			<span>Title</span>
+			<input type="text" name="title" placeholder="Title..." />
+		</label>
+		<label class="inline">
+			<span>Path</span>
+			<input type="text" name="path" placeholder="URL..." readonly="readonly" />
+		</label>
+		<hr />
+		<div class="heading">Posts to display</div>
+		<tpl from="box#posts-display"></tpl>
+		<hr />
+		<div class="change-update-interval">
+			<div class="heading">Update interval (minutes)</div>
+			<tpl from="box#update-interval"></tpl>
+			<hr />	
+		</div>
+		<div class="setting no-border">
+			<div class="label notifications">Notifications</div>
+			<tpl from="yes-no" pui="YesNo" key="notifications" class="setter"></tpl>
+		</div>
+		<hr />
+		<div class="heading">Delete feed</div>
+		<div class="delete-container">
+			<div class="pui-button delete">Delete feed</div>
+		</div>
+	</form>
+</template>
+	
+<!-- Feed specific settings -->
+<template id="screen#settings-folder" class="screen-with-topbar">
+	<tpl from="bar#settings"></tpl>
+	<tpl from="box#settings-folder"></tpl>
+</template>
+	
+<template id="box#settings-folder">
+	<div class="heading">Folder settings</div>
+	<form class="folder-settings-form">
+		<label class="inline">
+			<span>Name</span>
+			<input type="text" name="name" placeholder="Name..." />
+		</label>
+	</form>
+</template>
+
+<!-- Options page -->
+
+<template id="screen#options">
+	<header>
+		<h1>feeder</h1>
+		<a class="button back-to-feeds" href="#" data-title="Settings">Back to feeds</a>
+	</header>
+
+	<section class="content">
+		<div class="column side left-col">
+			<div class="col-inner">
+				<tpl from="screen#menu"></tpl>
+				<tpl from="screen#get-pro" class="no-pro content-box"></tpl>
+				<div id="footer">
+					<ul>
+						<li>Feeder &copy; 2013</li>
+						<li><a href="http://www.rootof.com">Rootof</a></li>
+						<li><a href="/support">Support</a></li>
+						<li><a href="/legal">Legal</a></li>
+					</ul>	
+					<ul>
+						<li><a href="http://blog.feeder.co/">Blog</a></li>
+						<li><a href="http://www.facebook.com/feederco">Facebook</a></li>
+						<li><a href="http://www.twitter.com/feederco">Twitter</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="column" id="page">
+				<tpl from="page#organize"></tpl>
+				<tpl from="page#settings"></tpl>
+				<tpl from="page#theme"></tpl>
+		</div>
+	</section>
+	
+	<tpl from="popup#support-us" style="display:none"></tpl>
+</template>
+
+<template id="screen#menu">
+	<div class="menu content-box">
+		<div data-page="tpl-page-organize" class="menu-item active" id="sort-feeds"><span class="icons sort-list"></span>Sort feeds <span class="icons arrow-right"></span></div>
+		<div data-page="tpl-page-settings" class="menu-item" id="settings"><span class="icons cog"></span>Settings <span class="icons arrow-right"></span></div>
+		<div data-page="tpl-page-theme" class="menu-item" id="change-theme"><span class="icons themes"></span>Change theme <span class="icons arrow-right"></span></div>
+		<div class="menu-item profile-settings pro-user" id="profile-settings"><span class="icons user"></span>Profile settings <span class="icons arrow-right"></span></div>
+	</div>
+</template>
+
+<template id="screen#get-pro">
+	<span class="title">Go Pro</span>
+	<ul class="reasons-list">
+		<li>Read online, from anywhere</li>
+		<li>Sync between multiple computers"</li>
+		<li>Browse your feeds faster"</li>
+		<li>And more to come!</li>
+	</ul>
+	<div class="support-us-button get-feeder-pro"><span></span>Get feeder pro</div>
+</template>
+
+<!-- Options page: organize -->
+<template id="page#organize">
+	<div class="column main">
+		<div class="col-inner">
+			<tpl from="bar#breadcrumbs"></tpl>
+			<context name="Main" class="main-context"></context>
+		</div>
+	</div>
+	<div class="column side right-col">
+		<div class="col-inner">
+			<controller name="Folders"></controller>
+			<controller name="ImportExport"></controller>
+			</div>
+	</div>
+</template>
+
+<template id="screen#folders" class="screen-with-topbar content-box">
+	<tpl from="bar#folders"></tpl>
+	<tpl from="folder-item" many="folder"></tpl>
+</template>
+
+<template id="bar#folders">
+	<div class="bar top">
+		<div class="title"><span data="title:text"></span></div>
+		<div class="button add"><span class="icons plus"></span></div>
+	</div>
+</template>
+
+<template id="folder-item">
+	<div class="name" data="title:text"></div>
+</template>
+
+<template id="screen#import-export" class="screen-with-topbar content-box">
+	<tpl from="bar#settings"></tpl>
+	<div class="tpl-module-content">
+		<div class="export-things">
+			<p>Export feeds for safekeeping or so to import them to other computers or services.</p>
+			<div class="action-button export"><span class="icons folder-right"></span>Export feeds to file</div>
+		</div>
+		<form class="import-form">
+			<div class="action-button import"><span class="icons download"></span>Import feeds from file</div>
+			<input type="file" />
+		</form>
+	</div>
+</template>
+
+<template id="bar#breadcrumbs">
+	<tpl from="breadcrumb" many="crumb"></tpl>
+	<div class="button add" title="Add feed or folder"><span class="icons plus"></span></div>
+</template>
+
+<template id="breadcrumb">
+	<div data="title:text"></div>
+</template>
+
+<!-- Options page: settings -->
+
+<template id="page#settings">
+	<div class="column main">
+		<div class="col-inner">
+			<context name="Settings"></context>
+		</div>
+	</div>
+</template>
+
+
+<!-- Options page: theme -->
+
+<template id="page#theme">
+	<div class="column main single-col">
+		<div class="col-inner">
+			<controller name="Themes"></controller>
+		</div>
+	</div>
+</template>
+
+<template id="screen#themes" class="screen-with-topbar content-box">
+	<tpl from="bar#settings"></tpl>
+	
+	<div class="module-wrapper">
+		<form>
+			<tpl from="theme-box" many="themes" />
+		</form>
+	</div>
+</template>
+
+<template id="theme-box">
+	<div class="theme-container" data="identifier:data-theme">
+		<div class="theme"></div>
+		<br />
+		<label><input type="radio" name="active-theme" /> <span data="name:text"></span></label>
+	</div>
+</template>
+
+<template id="popup#support-us">
+	<div id="support-popup">
+		<div id="support-us-overlay"></div>
+		<div id="outer-border">
+			<a href="#" id="support-close-btn">Close</a>
+			<div id="support-us-content">
+				<div id="text-wrap">
+					<h2>Help us out</h2>
+					<p>We are continually working on new features and improvements for RSS Feed Reader. Your support would really help. We don't need much.</p>
+					<p>If you can't afford it, <a class="mail-us" href="mailto:hello@feeder.co">send us a message</a> instead. They brighten up our days. Everything helps make this extension better. Thank you.</p>
+					<p>Sincerely,</p>
+					<p>Erik & Johan</p>
+				</div>
+				<div id="bottom-bar">
+					<div id="select-container">
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" id="support-us-form-popup">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="FSAFSX7L68374">
+							<input type="hidden" name="lc" value="US">
+							<table>
+							<tbody><tr style="display:none"><td><input type="hidden" name="on0" value="How much karma?">How much karma?</td></tr>
+							<tr><td>
+							<div id="select-wrap">
+								<select name="os0">
+									<option value="Thank you">Thank you $3.00 USD</option>
+									<option value="Thank you, thank you">Thank you, thank you $5.00 USD</option>
+									<option value="Thank you, thank you, thank you">Thank you, thank you, thank you $10.00 USD</option>
+									<option value="Just wow">Just wow $100.00 USD</option>
+								</select> 
+							</div>
+							</td></tr>
+							</tbody></table>
+							<input type="hidden" name="currency_code" value="USD">
+							<a href="#" id="support-us-button-popup">Support us</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+<template id="screen#popup-consume" class="screen-with-topbar">
+	<tpl from="bar#navigate-for-post"></tpl>
+	<x-iframe></x-iframe>
+</template>
+
+<template id="bar#navigate-for-post">
+	<div class="bar top">
+		<div class="bottom-cover"></div>
+		
+		<div class="back"><span class="icons left-arrow"></span></div>
+		<div class="title">
+			<div class="item-starred"><span class="icons gold-star"></div>
+			<span data="title:text"></span>
+		</div>
+
+		<div class="buttons arrows">
+			<div class="button history-previous"><span class="icons arrow-up"></span></div>
+			<div class="button history-next"><span class="icons arrow-down"></span></div>
+		</div>
+	</div>
+</template>
+
+<template id="screen#consume">
+	<header>
+		<div class="popup-controls">
+			<a class="profile standard-button pro-user" href="/pro/file" data-title="Profile"><span class="icons consume user"></span></a>
+			<h1>feeder</h1>
+			<a class="standard-button back-to-feeds" href="#" data-title="Settings">Back to feeds</a>
+			<a class="settings-page standard-button" href="#" data-title="Settings"><span class="icons consume cog"></span></a>
+		</div>
+		<div class="consume-controls">
+			<div class="post-related">
+				<div class="navigate">
+					<a class="prev standard-button" href="#" data-title="Previous post"><span class="icons consume arrow-up"></span></a>
+					<a class="next standard-button" href="#" data-title="Next post"><span class="icons consume arrow-down"></span></a>
+				</div>
+				<a href="#" class="star-post standard-button" data-title="Star post"><span class="icons consume star"></span></a>
+			</div>
+			<div class="current-post-header">
+				<div class="text"></div>
+				<div class="link"></div>
+			</div>
+			<a class="standard-button share" href="#" title="Share"><span class="icons consume forward-arrow"></span></a>
+			<div class="readability">
+				<a data-readability="true" class="standard-button on simple">Simple</a>
+				<a class="standard-button full">Full</a>
+			</div>
+		</div>
+	</header>
+	<div id="consume">
+		<tpl from="screen#consume-no-posts" class="consume-loading"></tpl>
+		<x-iframe frameBorder="0" class="consumer" src="about:blank"></x-iframe>
+		<div class="iframe-navigate">
+			<a href="#" class="go-back standard-button"><span class="icons consume left-arrow"></span></a>
+			<a href="#" class="go-forward standard-button"><span class="icons consume left-arrow"></span></a>
+		</div>
+	</div>
+	<div id="reader" class="popup-container" data-scroll-main="yah">
+		<tpl pui="PseudoPopup" key="popup" from="popup"></tpl>
+	</div>
+</template>
+
+<template id="screen#consume-no-posts">
+	<div class="message">
+		<span class="inset-icon"></span>
+		<h2>No posts selected</h2>
+		<p>Open a post in the bar to the left to begin consuming feeds</p>
+	</div>
+</template>
+
+<template id="popup">
+	<div class="popup-iframe">
+		<div class="main-scroll">
+			<div class="popup">
+				<div class="popup-content"></div>
+			</div>
+		</div>
+		<div class="overflow-scroll-fix"></div> <!-- A hidden element that is height of the screen + 1 to force a scrollbar, which is buggy in chrome -->
+	</div>
+</template>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="reader/reader.js"></script>

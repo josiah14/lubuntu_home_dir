@@ -1,0 +1,615 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link rel="shortcut icon" href="http://lxde.org/misc/favicon.ico" type="image/x-icon" />
+<title>LXDE.org Forum &bull; View topic - Change taskbar appearance?</title>
+
+
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = 'Enter the page number you wish to go to:';
+	var on_page = '1';
+	var per_page = '';
+	var base_url = '';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '; path=/; domain=forum.lxde.org';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<script type="text/javascript" src="./styles/prosilver/template/styleswitcher.js"></script>
+<script type="text/javascript" src="./styles/prosilver/template/forum_fn.js"></script>
+
+<link href="./styles/prosilver/theme/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<link href="./style.php?id=1&amp;lang=en" rel="stylesheet" type="text/css" media="screen, projection" />
+
+<link href="./styles/prosilver/theme/normal.css" rel="stylesheet" type="text/css" title="A" />
+<link href="./styles/prosilver/theme/medium.css" rel="alternate stylesheet" type="text/css" title="A+" />
+<link href="./styles/prosilver/theme/large.css" rel="alternate stylesheet" type="text/css" title="A++" />
+
+<link rel="alternate" type="application/rss+xml" title="LXDE.org Forum RSS Feed" href="./rss.php" />
+
+
+
+</head>
+
+<body id="phpbb" class="section-viewtopic ltr">
+
+<div id="wrap">
+	<a id="top" name="top" accesskey="t"></a>
+	<div id="page-header">
+		<div class="lxdeheaderbar">
+			<h1><a href="http://lxde.org">LXDE</a></h1>
+			<h2>Forum</h2>
+			<p class="subtitle">Lightweight X11 Desktop Environment</p>
+			<ul class="headerLinks">
+				<li><a href="http://lxde.org">Home</a></li>
+				<li><a href="http://download.lxde.org">Download</a></li>
+				<li><a href="http://screenshots.lxde.org">Screenshots</a></li>
+				<li><a href="http://blog.lxde.org">Blog</a></li>
+				<li><a href="http://wiki.lxde.org">Wiki</a></li>
+				<li><a href="http://planet.lxde.org">Planet</a></li>
+				<li><a href="http://forum.lxde.org">Forum</a></li>
+				<li><a href="http://join.lxde.org">Join</a></li>
+			</ul>
+		<span class="clearboth"></span>
+			</div>
+		<div class="navbar">
+			<div class="inner"><span class="corners-top"><span></span></span>
+
+			<ul class="linklist navlinks">
+				<li class="icon-home"><a href="./index.php" accesskey="h">Board index</a>  <strong>&#8249;</strong> <a href="./viewforum.php?f=14">Questions and Answers</a> <strong>&#8249;</strong> <a href="./viewforum.php?f=3">LXDE Components</a> <strong>&#8249;</strong> <a href="./viewforum.php?f=24">LXAppearance</a></li>
+
+				<li class="rightside"><a href="#" onclick="fontsizeup(); return false;" onkeypress="fontsizeup(); return false;" class="fontsize" title="Change font size">Change font size</a></li>
+				<li class="rightside"><a href="./viewtopic.php?f=24&amp;t=1443&amp;view=print" title="Print view" accesskey="p" class="print">Print view</a></li>
+			</ul>
+
+			
+
+			<ul class="linklist rightside">
+				<li class="icon-faq"><a href="./faq.php" title="Frequently Asked Questions">FAQ</a></li>
+				<li class="icon-register"><a href="./ucp.php?mode=register">Register</a></li>
+					<li class="icon-logout"><a href="./ucp.php?mode=login" title="Login" accesskey="x">Login</a></li>
+				
+			</ul>
+
+			<span class="corners-bottom"><span></span></span></div>
+		</div>
+		
+			<div id="search-box">
+				<form action="./search.php" method="post" id="search">
+				<fieldset>
+					<input name="keywords" id="keywords" type="text" maxlength="128" title="Search for keywords" class="inputbox search" value="Search…" onclick="if(this.value=='Search…')this.value='';" onblur="if(this.value=='')this.value='Search…';" /> 
+					<input class="button2" value="Search" type="submit" />
+					
+				</fieldset>
+				</form>
+			</div>
+		
+	</div>
+
+	<a name="start_here"></a>
+	<div id="page-body">
+		<!-- global announcements --><!-- end global announcements -->
+
+<h2><a href="./viewtopic.php?f=24&amp;t=1443">Change taskbar appearance?</a> </h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body --><div style="display: none !important;">The standard theme switcher of LXDE - <!-- m --><a class="postlink" href="http://wiki.lxde.org/en/LXAppearance">http://wiki.lxde.org/en/LXAppearance</a><!-- m --><br /></div>
+
+<div class="topic-actions">
+
+	<div class="buttons">
+	
+		<div class="reply-icon"><a href="./posting.php?mode=reply&amp;f=24&amp;t=1443" title="Post a reply"><span></span>Post a reply</a></div>
+	
+	</div>
+
+	
+		<div class="search-box">
+			<form method="get" id="topic-search" action="./search.php">
+			<fieldset>
+				<input class="inputbox search tiny"  type="text" name="keywords" id="search_keywords" size="20" value="Search this topic…" onclick="if(this.value=='Search this topic…')this.value='';" onblur="if(this.value=='')this.value='Search this topic…';" />
+				<input class="button2" type="submit" value="Search" />
+				<input type="hidden" name="t" value="1443" />
+<input type="hidden" name="sf" value="msgonly" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+		<div class="pagination">
+			7 posts
+			 &bull; Page <strong>1</strong> of <strong>1</strong>
+		</div>
+	
+
+</div>
+<div class="clear"></div>
+
+
+	<div id="p3898" class="post bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 class="first"><a href="#p3898">Change taskbar appearance?</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=3898#p3898"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=1453">Lupuss</a></strong> &raquo; Mon Mar 29, 2010 1:16 pm </p>
+
+			
+
+			<div class="content">Hi everyone.<br /><br />I'd like to know if there's any way to change the taskbar appearance to match the selected theme. I haven't seen that option anywhere though.<br /><br />Thanks</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile3898">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=1453">Lupuss</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 6</dd><dd><strong>Joined:</strong> Mon Mar 22, 2010 6:43 am</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p3899" class="post bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p3899">Re: Change taskbar appearance?</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=3899#p3899"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=391">Marty Jack</a></strong> &raquo; Mon Mar 29, 2010 2:13 pm </p>
+
+			
+
+			<div class="content">Right click on the panel and select Panel Settings and/or Task Bar settings and you will find some customization options, one of which is to follow the GTK theme.</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile3899">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=391">Marty Jack</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 381</dd><dd><strong>Joined:</strong> Mon Mar 23, 2009 6:14 am</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p3923" class="post bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p3923">Re: Change taskbar appearance?</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=3923#p3923"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=1453">Lupuss</a></strong> &raquo; Thu Apr 01, 2010 11:31 am </p>
+
+			
+
+			<div class="content">Thank you for your answer, sadly I can't seem to find this option (in LXPanel 0.5.5). If I go to Panel Settings =&gt; Appearance, I can chose an image for the taskbar (like make it transparent) but I don't have an option to follow the current theme (and indeed it doesn't).<br /><br />I'm running Debian squeeze, although I don't think it's relevant here.</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile3923">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=1453">Lupuss</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 6</dd><dd><strong>Joined:</strong> Mon Mar 22, 2010 6:43 am</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p3926" class="post bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p3926">Re: Change taskbar appearance?</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=3926#p3926"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=391">Marty Jack</a></strong> &raquo; Thu Apr 01, 2010 2:52 pm </p>
+
+			
+
+			<div class="content">Right click panel, Panel Settings / Appearance / System Theme, uncheck Custom Color<br />Right click taskbar plugin in an empty space , Task Bar Settings (or navigate there from Panel Settings / Panel Applets / select Taskbar / Edit) / uncheck Flat buttons<br /><br />This should get you a panel that completely follows the system theme.</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile3926">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=391">Marty Jack</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 381</dd><dd><strong>Joined:</strong> Mon Mar 23, 2009 6:14 am</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p3927" class="post bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p3927">Re: Change taskbar appearance?</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=3927#p3927"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=1453">Lupuss</a></strong> &raquo; Thu Apr 01, 2010 3:45 pm </p>
+
+			
+
+			<div class="content">Here's what I've got:<br />Right-clicked on the task bar, selected Panel Settings.<br /><br />In the Panel Preferences windows, I went to the Appearance tab.<br />I've selected 'System theme' under &quot;Background&quot; and I've unchecked 'Custom color' under &quot;Font&quot;<br /><br />Then onto the Panel Applets tab, I clicked on Task Bar then the Edit button, which launched a &quot;Task Bar (Windows List)&quot; window.<br />'Show tooltips' and 'Flash when... ' are checked, 'Icons only', 'Flat buttons', Combine multiple...' are unchecked.<br /><br />Now the task bar is a kind of white, but it never changes with the current theme. Could it be themes selected in the Openbox Conf. Manager can't change the task bar appearance?<br /><br />Sorry if I'm being dense here...</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile3927">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=1453">Lupuss</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 6</dd><dd><strong>Joined:</strong> Mon Mar 22, 2010 6:43 am</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p3928" class="post bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p3928">Re: Change taskbar appearance?</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=3928#p3928"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=391">Marty Jack</a></strong> &raquo; Thu Apr 01, 2010 4:12 pm </p>
+
+			
+
+			<div class="content">I have no idea what the Openbox Configuration Manager controls (maybe it is the window decorations) but it is the GTK theme selected in ~/.gtkrc-2.0 that the panel follows.  The last time I tested this it worked.  Mine says gtk-theme-name=&quot;Raleigh&quot;</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile3928">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=391">Marty Jack</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 381</dd><dd><strong>Joined:</strong> Mon Mar 23, 2009 6:14 am</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<div id="p3929" class="post bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="postbody">
+			
+
+			<h3 ><a href="#p3929">Re: Change taskbar appearance?</a></h3>
+			<p class="author"><a href="./viewtopic.php?p=3929#p3929"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a>by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=1453">Lupuss</a></strong> &raquo; Thu Apr 01, 2010 4:50 pm </p>
+
+			
+
+			<div class="content">I got confused, there are two types of themes :<br />- Themes available in the Openbox Conf. Manager, they basically change the windows' upper bar. <br />- Window themes available in the Appearance Settings, they're the one you can match the task bar with.<br /><br />I guess getting the task bar to match the Openbox theme isn't readily feasible.</div>
+
+			
+
+		</div>
+
+		
+			<dl class="postprofile" id="profile3929">
+			<dt>
+				<a href="./memberlist.php?mode=viewprofile&amp;u=1453">Lupuss</a>
+			</dt>
+
+			
+
+		<dd>&nbsp;</dd>
+
+		<dd><strong>Posts:</strong> 6</dd><dd><strong>Joined:</strong> Mon Mar 22, 2010 6:43 am</dd>
+
+		</dl>
+	
+
+		<div class="back2top"><a href="#wrap" class="top" title="Top">Top</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<hr class="divider" />
+
+	<form id="viewtopic" method="post" action="./viewtopic.php?f=24&amp;t=1443">
+
+	<fieldset class="display-options" style="margin-top: 0; ">
+		
+		<label>Display posts from previous: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+		<label>Sort by <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label> <label><select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select> <input type="submit" name="sort" value="Go" class="button2" /></label>
+		
+	</fieldset>
+
+	</form>
+	<hr />
+
+
+<div class="topic-actions">
+	<div class="buttons">
+	
+		<div class="reply-icon"><a href="./posting.php?mode=reply&amp;f=24&amp;t=1443" title="Post a reply"><span></span>Post a reply</a></div>
+	
+	</div>
+
+	
+		<div class="pagination">
+			7 posts
+			 &bull; Page <strong>1</strong> of <strong>1</strong>
+		</div>
+	
+</div>
+
+
+	<p></p><p><a href="./viewforum.php?f=24" class="left-box left" accesskey="r">Return to LXAppearance</a></p>
+
+	<form method="post" id="jumpbox" action="./viewforum.php" onsubmit="if(this.f.value == -1){return false;}">
+
+	
+		<fieldset class="jumpbox">
+	
+			<label for="f" accesskey="j">Jump to:</label>
+			<select name="f" id="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+			
+				<option value="-1">Select a forum</option>
+			<option value="-1">------------------</option>
+				<option value="14">Questions and Answers</option>
+			
+				<option value="8">&nbsp; &nbsp;General Help</option>
+			
+				<option value="1">&nbsp; &nbsp;Installation and Upgrade of LXDE</option>
+			
+				<option value="5">&nbsp; &nbsp;Hardware &amp; Laptops with LXDE</option>
+			
+				<option value="6">&nbsp; &nbsp;Networking &amp; Wireless</option>
+			
+				<option value="3">&nbsp; &nbsp;LXDE Components</option>
+			
+				<option value="21">&nbsp; &nbsp;&nbsp; &nbsp;LXPanel</option>
+			
+				<option value="23">&nbsp; &nbsp;&nbsp; &nbsp;LXSession (Lite)</option>
+			
+				<option value="24" selected="selected">&nbsp; &nbsp;&nbsp; &nbsp;LXAppearance</option>
+			
+				<option value="25">&nbsp; &nbsp;&nbsp; &nbsp;GPicView</option>
+			
+				<option value="26">&nbsp; &nbsp;&nbsp; &nbsp;LXTerminal</option>
+			
+				<option value="27">&nbsp; &nbsp;&nbsp; &nbsp;LXNM</option>
+			
+				<option value="22">&nbsp; &nbsp;PCManFM</option>
+			
+				<option value="38">Lubuntu</option>
+			
+				<option value="39">&nbsp; &nbsp;Technical Support</option>
+			
+				<option value="47">&nbsp; &nbsp;&nbsp; &nbsp;Beginners</option>
+			
+				<option value="45">&nbsp; &nbsp;&nbsp; &nbsp;General Support</option>
+			
+				<option value="46">&nbsp; &nbsp;&nbsp; &nbsp;Networking Support</option>
+			
+				<option value="40">&nbsp; &nbsp;Follow Lubuntu</option>
+			
+				<option value="41">&nbsp; &nbsp;Lubuntu Development</option>
+			
+				<option value="42">&nbsp; &nbsp;Your Opinion does matter</option>
+			
+				<option value="49">&nbsp; &nbsp;Lubuntu HOWTOs</option>
+			
+				<option value="15">Developments and Improvements</option>
+			
+				<option value="4">&nbsp; &nbsp;LXDE Development &amp; Programming</option>
+			
+				<option value="13">&nbsp; &nbsp;LXDE Design Project</option>
+			
+				<option value="12">&nbsp; &nbsp;LXDE Translation Project</option>
+			
+				<option value="16">&nbsp; &nbsp;Spread LXDE</option>
+			
+				<option value="7">&nbsp; &nbsp;&nbsp; &nbsp;Partner Repository</option>
+			
+				<option value="11">&nbsp; &nbsp;&nbsp; &nbsp;LXDE Media</option>
+			
+				<option value="28">&nbsp; &nbsp;&nbsp; &nbsp;LXDE Social Network</option>
+			
+				<option value="31">LXDE Forum Feedback &amp; Help</option>
+			
+				<option value="32">&nbsp; &nbsp;Feedback &amp; Help</option>
+			
+				<option value="33">&nbsp; &nbsp;Admins &amp; Mods</option>
+			
+				<option value="34">&nbsp; &nbsp;LXDE Cafe</option>
+			
+				<option value="17">Global Village</option>
+			
+				<option value="19">&nbsp; &nbsp;Chinese LXDE Forum / LXDE 中文討論區</option>
+			
+				<option value="10">&nbsp; &nbsp;&nbsp; &nbsp;硬體暨筆記型電腦問題中文討論區</option>
+			
+				<option value="44">&nbsp; &nbsp;Spanish LXDE Forum</option>
+			
+				<option value="18">&nbsp; &nbsp;German language LXDE Forum / Deutschsprachiges LXDE Forum</option>
+			
+				<option value="30">&nbsp; &nbsp;French LXDE Forum / Forum français LXDE</option>
+			
+				<option value="29">&nbsp; &nbsp;Portuguese LXDE Forum / Fórum do LXDE em português</option>
+			
+				<option value="43">&nbsp; &nbsp;Arabic LXDE Forum / المنتدى العربي</option>
+			
+			</select>
+			<input type="submit" value="Go" class="button2" />
+		</fieldset>
+	</form>
+
+
+	<h3>Who is online</h3>
+	<p>Users browsing this forum: No registered users and 1 guest</p>
+</div>
+
+<div id="page-footer">
+
+	<div class="navbar">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<ul class="linklist">
+			<li class="icon-home"><a href="./index.php" accesskey="h">Board index</a></li>
+				
+			<li class="rightside"><a href="./memberlist.php?mode=leaders">The team</a> &bull; <a href="./ucp.php?mode=delete_cookies">Delete all board cookies</a> &bull; All times are UTC [ <abbr title="Daylight Saving Time">DST</abbr> ]</li>
+		</ul>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Group
+		
+		<br />Protected by <a href="http://www.lithiumstudios.org" target="_blank">Anti-Spam ACP</a>
+		
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" name="bottom" accesskey="z"></a>
+	
+</div>
+
+</body>
+</html>

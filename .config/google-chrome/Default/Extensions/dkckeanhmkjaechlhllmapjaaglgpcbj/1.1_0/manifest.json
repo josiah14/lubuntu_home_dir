@@ -1,0 +1,37 @@
+{
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDybA19//90fumgb7ZpNRxb6nRYVjuXCN68zFkAggN7EGdqCTIUtiFTbOTRs5EQrs3P5D+ANHhCqOMLHpfGOByHAXsY0ox4oLnStu+PkTKdwIgPuKMJpDwJoKwPj/tckohTyIoOAsU3BtSg7ZxcRjz3h9vOnbvvktch6Zf1d3iSBwIDAQAB",
+   "name": "Dark Vibe",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 220, 220, 220 ],
+         "frame": [ 0, 0, 0 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_section_link": [ 255, 255, 255 ],
+         "ntp_section_text": [ 255, 255, 255 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "tab_background_text": [ 200, 200, 200 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 10, 10, 10 ]
+      },
+      "images": {
+         "theme_frame": "images/frame.png",
+         "theme_frame_inactive": "images/frame.png",
+         "theme_frame_incognito": "images/frame.png",
+         "theme_frame_incognito_inactive": "images/frame.png",
+         "theme_ntp_background": "images/background.png",
+         "theme_tab_background": "images/tab_in.png",
+         "theme_toolbar": "images/toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "repeat-x"
+      },
+      "tints": {
+         "background_tab": [ -1, 1, 0.8 ],
+         "buttons": [ 130, 0, 1 ],
+         "frame_inactive": [ -1, 1, 0.6 ]
+      }
+   },
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

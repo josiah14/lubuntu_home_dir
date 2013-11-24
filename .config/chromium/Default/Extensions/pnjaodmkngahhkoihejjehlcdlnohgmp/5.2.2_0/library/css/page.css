@@ -1,0 +1,76 @@
+header {
+	position: relative;
+	height: 48px;
+	background: #212121;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+	background: url(../../icons/logo-white.png) right center no-repeat;
+	width: 100px;
+	height: 31px;
+	text-indent: -10000px;
+	position: absolute;
+	top: 23px;
+	left: 114px;
+	margin-right: -50px;
+	margin-top: -14px;
+}
+
+.standard-button {
+	border: 1px solid rgba(18,16,11,.8);
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; 
+	background-color: #333; 
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 
+				inset 0 0 1px rgba(255,255,255,0.1); 
+	
+	background-image: -webkit-linear-gradient(bottom, rgba(18,16,11,.1) 0%, rgba(255,255,255,.1) 100%);
+
+	display: block;
+	position: absolute;
+	top: 8px;
+	text-decoration: none;
+	color: #fff;
+	height: 28px;
+	line-height: 30px;
+	height: 30px;
+	padding: 0 10px;
+	-webkit-transition: opacity 400ms;
+}
+
+	.standard-button:hover {	
+		background-image: -webkit-linear-gradient(bottom, rgba(18, 16, 11, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);
+		border-color: solid rgba(18, 16, 11, 0.8);
+		
+	}
+
+	.standard-button.on,
+	.standard-button:active {	
+		background-color: #282828;
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(18, 16, 11, 0.1)), color-stop(100% rgba(255, 255, 255, 0.1)));
+		background-image: -webkit-linear-gradient(top, rgba(18, 16, 11, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+		background-image: -moz-linear-gradient(top, rgba(18, 16, 11, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+		background-image: -ms-linear-gradient(top, rgba(18, 16, 11, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+		background-image: -o-linear-gradient(top, rgba(18, 16, 11, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+		background-image: linear-gradient(top, rgba(18, 16, 11, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+		-webkit-box-shadow: 0 1px 1px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.05) inset;
+		-moz-box-shadow: 0 1px 1px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.05) inset;
+		box-shadow: 0 1px 1px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.05) inset;
+		border-color: rgba(18, 16, 11, 0.8);
+		color: #ccc;
+	}
+
+header .back-to-feeds {
+	left: 140px;
+}
+
+
+.in-settings header h1,
+.options-page header h1 {
+	left: 20px;
+}
